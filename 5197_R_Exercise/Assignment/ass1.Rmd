@@ -1,0 +1,342 @@
+---
+title: "FIT5197 2018 S1 Assignment 1"
+author: "Chuangfu Xie, 27771539"
+date: "13/04/2018"
+output:
+  html_document: default
+---
+## Question 1: Calculate conditional probability of an event
+
+**Solution**:  
+Let A denote the event that each value appears at least once, and B the event that the outcome is alternate in numbers. To compute P(A|B), we have  
+$$ P(A|B)=\frac { P(AB) }{ P(B) } $$
+Firstly, we compute P(AB), to have the intersection of event A and B:  
+1. In general, for a 7 time tossing, each tossing will yield a value contributing to the outcome. Since a dice only have 6 possible values, we have
+$$ { 6 }^{ 7 }=279936 $$
+1. As event A state that each value appears at least once, that is, to have a combination of 6 value without duplication, we have
+$$ { A }_{ 6 }^{ 6 }=6!=720 $$
+2. Then, we consider event B which state that there are no two values are adjacent. To meet this condition, as aforementioned permutation have 6 unique values, what we do is selecting a value from 1 to 6 and inserting it into 7 "interval" between these 6 values. we have
+$$ (5+4+4+4+4+4+5)\div2=15 $$
+
+For example, to insert a value right before the 1st value, the possible value have to be in the 5 values of which have excluded the value of following one, that is, 5 option for us to choose (Similar to inserting a value behind the 6th value). For the "interval" where both side have different values, on the analogy of previous reasoning, only 4 values are available for us to pick. As in the combination, there are 7 "intervals", only 5 "interval" are for this case. 
+
+| "Intervals"| ${1}_{st}$ | ${2}_{nd}$ | ${3}_{rd}$ | ${4}_{th}$ | ${5}_{th}$ | ${6}_{th}$ | ${7}_{th}$ |
+| ---------- | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | ----------:|
+| options    |     5      |     4      |     4      |     4      |     4      |     4      |     5      |
+
+However, let's take a general situation as example: For 6 value combination, says (1,2,3,4,5,6), inserting a value, which is identical to the last value, into any "interval" from 1st to 5th, for instance, (6,1,2,3,4,5,6), is exactly the same as the situation where inserting a value right behind the tail of a given combination say (6,1,2,3,4,5), which becomes (6,1,2,3,4,5,6) in the end.  
+Hence, the options we calculated so far have to be halved so that the total possible options for us is 15. 
+
+To sum up, we have
+$$ P(AB)=\frac { 15\times { A }_{ 6 }^{ 6 } }{ { 6 }^{ 7 } } =\frac { 15\times 720 }{ 279936 } =\frac { 25 }{ 648 }\approx 0.03858 $$
+
+Next, we are going to compute P(B):  
+According to previous reasoning, if event B occurs, that is, no two value adjacent having the same value. Hence, for each value in each position, we denote each value as $ { B }_{ i } $ where i are the position of the value. As values in each dicing are independent to others, we have
+$$ B={ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }{ B }_{ 5 }{ B }_{ 6 }{ B }_{ 7 } $$
+then, we have
+$$ P(B)=P({ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }{ B }_{ 5 }{ B }_{ 6 }{ B }_{ 7 })$$
+$$ \Rightarrow P(B)=P({ B }_{ 1 }{ )\cdot P(B }_{ 2 }|{ B }_{ 1 }){ \cdot P(B }_{ 3 }|{ B }_{ 1 }{ B }_{ 2 }){ \cdot P(B }_{ 4 }|{ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 })\\ \quad \quad \quad \quad \quad { \cdot P(B }_{ 5 }|{ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }){ \cdot P(B }_{ 6 }|{ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }{ B }_{ 5 })\\ \quad \quad \quad \quad \quad { \cdot P(B }_{ 7 }|{ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }{ B }_{ 5 }{ B }_{ 6 }) $$
+Since we have
+$$ P({ B }_{ 1 })=\begin{pmatrix} 6 \\ 1 \end{pmatrix}\times \cfrac { 1 }{ 6 }=1 $$
+$$ P({ B }_{ 2 }|{ B }_{ 1 })=\frac { P({ B }_{ 2 }{ B }_{ 1 }) }{ P({ B }_{ 1 })}=\cfrac { 1\times \cfrac { 5 }{ 6 }  }{ 1 } =\cfrac { 5 }{ 6 } $$
+$$ P({ { B }_{ 3 }|B }_{ 2 }{ B }_{ 1 })=\frac { P({ { B }_{ 3 }B }_{ 2 }{ B }_{ 1 }) }{ P({ { B }_{ 2 }B }_{ 1 }) } =\cfrac { \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 }  }{ \cfrac { 5 }{ 6 }  } =\cfrac { 5 }{ 6 } $$
+$$ \cdots $$
+$$ { P(B }_{ 7 }|{ B }_{ 1 }{ B }_{ 2 }{ B }_{ 3 }{ B }_{ 4 }{ B }_{ 5 }{ B }_{ 6 })=\frac { P({ B }_{ 7 }{ { B }_{ 6 }{ B }_{ 5 } }{ B }_{ 4 }{ B }_{ 3 }{ B }_{ 2 }{ B }_{ 1 }) }{ P({ { B }_{ 6 }{ B }_{ 5 } }{ B }_{ 4 }{ B }_{ 3 }{ B }_{ 2 }{ B }_{ 1 }) } =\cfrac { \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 }  }{ \cfrac { 5 }{ 6 }  } =\cfrac { 5 }{ 6 } $$
+To sum up
+$$ { P(B })=1\times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \approx 0.3349 $$
+
+Finally, we can compute the P(A|B):
+$$ P(A|B)=\frac { P(AB) }{ P(B) }=\cfrac { \frac { 25 }{ 648 }  }{ 1\times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 } \times \cfrac { 5 }{ 6 }  } = 0.1152 $$
+```{r}
+nRuns = 1000000 #runs 1 million times
+AB = 0 #initialise for counting event AB
+B = 0 #initialise for counting event B
+for (i in 1:nRuns){
+    # Tossing dice is discrete uniform distribution
+    dice.roll <- sample(c(1:6), 7, replace = T )
+    # Check whether event A occurs
+    A.result <- !dice.roll %in% dice.roll[duplicated(dice.roll)]
+    # For computing p(AB)
+    if(sum(A.result) == 5){
+        AB.pre = 0
+        AB.cnt = 0
+        for(i in dice.roll){
+            if (AB.pre ==0){
+                # For first loop
+                # Initialize variable for previous value
+                AB.pre <- i 
+            }else if(abs(pre-i) != 0){
+                # The second if is for checking whether event B occurs by given event A occurs
+                AB.cnt = AB.cnt + 1
+            }
+            #Store previous value
+            pre <- i
+        }
+        if(AB.cnt == 6){
+            AB = AB + 1
+        }
+    }
+    # For computing P(B)
+    B.pre = 0 
+    B.cnt = 0
+    for(i in dice.roll){
+        # Check whether event B occurs
+        if (B.pre ==0){
+            B.pre <- i
+        }else if(abs(pre-i) != 0){
+            B.cnt = B.cnt + 1
+        }
+        pre <- i 
+    }
+    if(B.cnt == 6){
+        B = B + 1
+    }
+}
+print(paste("Simulation result:","P(AB)=",AB/nRuns,", P(B)=",B/nRuns,", P(A|B)=",AB/B))
+```
+***
+## Question 2: Entropy
+**Solution**:  
+First, read data from folder:  
+**Note**: To successfully read data from disk must have this notebook and the csv file "FIT5197_2018_S1_Assignment1_Q2_data.csv" in the same directory.
+
+```{r}
+data <- read.csv(file="./FIT5197_2018_S1_Assignment1_Q2_data.csv", header=TRUE, sep=",")
+# Check how many NA in column X and Y
+print(paste("X contains NAs in total: ",sum(is.na(data$X))))
+print(paste("Y contains NAs in total: ",sum(is.na(data$Y))))
+```
+**Task 1**. Handle `NA`s by mode imputation, and plot indivdual variables in a histogram with proper axis labels and title.  
+**Solution**:  
+We use mode imputation to handle `NA` in our data, which is to replace the missing value by its most common value.  
+First, we compute the mode:
+```{r}
+print(paste("The mode in X is: ", names(which.max(table(data$X))), paste("The mode in Y is: ", names(which.max(table(data$Y))))))
+```
+As the mode in X and Y, respectively, are 0 and 1, we assign the mode to where there are `NA`s in X and Y :
+```{r}
+data$X[is.na(data$X)] <- 0
+data$Y[is.na(data$Y)] <- 1
+```
+Now we print the histogram:
+```{r}
+hist(data$X, xlab="X", breaks=3,col=c("grey","black"),
+     labels=c(as.character(sum(data$X == 0)),
+              as.character(sum(data$X == 1))), 
+     xaxt='n',main="Histogram of Event X")
+axis(side = 1,at=seq(0,1,0.25),labels=c("",0,"",1,""))
+hist(data$Y, xlab="Y", breaks=3,col=c("grey","black"),
+     labels=c(as.character(sum(data$Y == 0)),
+              as.character(sum(data$Y == 1))), 
+     xaxt='n',main="Histogram of Event Y")
+axis(side = 1,at=seq(0,1,0.25),labels=c("",0,"",1,""))
+```
+
+* **Task 2**. Calculate and report full tables for **P(X)**, **P(Y)**, **P(X, Y)**, **P(X|Y)**, **P(Y|X)**.  
+**Solution**:  
+Based on previous calculation, we already have all possible values of X and Y, which is the value table for each probability mass function, as we have
+$$ p(x_{i})=P_{ X }(X=x_{i}) $$
+$$ P_{ X }( 0 )=\frac { 59 }{ 100 } =0.59 $$
+$$ P_{ X }( 1 )=\frac { 41 }{ 100 } =0.41 $$
+$$ P_{ X }( 0 )+P_{ X }(1)=1$$
+$$ P_{ Y }( 0 )=\frac { 40 }{ 100 } =0.40 $$
+$$ P_{ Y }( 1 )=\frac { 60 }{ 100 } =0.60 $$
+$$ P_{ Y }( 0 )+P_{ Y }(1)=1$$
+X and Y both are discrete random variables, they also are mutual independent, thus we have:
+$$P(X,Y)=P(X)P(Y)$$
+$$ P( X|Y )=\frac { P(X,Y) }{ P(Y) } $$ 
+$$ P( Y|X )=\frac { P(X,Y) }{ P(X) } $$ 
+The result shown in table as follow: 
+
+Table `P(X)`:
+
+|  X   |  0   |   1  |
+| ---- | :--: | ---: |
+| `p(x)` | 0.59 | 0.41 |
+
+Table P(Y):
+
+|  Y   |  0   |   1  |
+| ---- | :--: | ---: |
+| `p(x)` | 0.40 | 0.60 |
+
+Table `P(X,Y)`:
+
+|  `Y|X` |   0   |   1   | `P(x=j)`| 
+| ------ | :---: | :---: | ----: |
+|    0   | 0.236 | 0.164 | 0.40  |
+|    1   | 0.354 | 0.246 | 0.60  |
+| `P(x=i)` | 0.59  | 0.41  |   1   |
+
+Table `P(X|Y=0)`:
+
+|     X    |   0   |   1   | 
+| -------- | :---: | ----: |
+| `P(X|Y=0)`| 0.575 | 0.425 |
+
+Table `P(X|Y=1)`:
+
+|     X    |   0   |   1   |  
+| -------- | :---: | ----: |
+| `P(X|Y=1)` | 0.600 | 0.400 |
+
+Table `P(Y|X=0)`:
+
+|     Y    |   0   |   1   | 
+| -------- | :---: | ----: |
+| `P(Y|X=0)` | 0.390 | 0.288 |
+
+Table `P(Y|X=1)`:
+
+|     Y    |   0   |   1   | 
+| -------- | :---: | ----: |
+| `P(Y|X=1)` | 0.878 | 0.585 |
+```{r}
+X_0 = sum(data$X == 0)
+X_1 = sum(data$X == 1)
+Y_0 = sum(data$Y == 0)
+Y_1 = sum(data$Y == 1)
+XY_00 = 0
+XY_01 = 0
+XY_10 = 0
+XY_11 = 0
+
+for (row in 1:nrow(data)){
+    x <- data[row,][[1]]
+    y <- data[row,][[2]]
+    # counting F(X,Y)
+    if(x==0&y==0){
+        XY_00=XY_00+1
+    }else if(x==0&y==1){
+        XY_01=XY_01+1
+    }else if(x==1&y==0){
+        XY_10=XY_10+1
+    }else if(x==1&y==1){
+        XY_11=XY_11+1
+    }
+}
+print(paste("P(X,Y)=P(0,0)=", XY_00/100))
+print(paste("P(X,Y)=P(1,0)=", XY_10/100))
+print(paste("P(X,Y)=P(0,1)=", XY_01/100))
+print(paste("P(X,Y)=P(1,1)=", XY_11/100))
+print(paste("P(X|Y)=P(0|0)=", XY_00/Y_0))
+print(paste("P(X|Y)=P(1|0)=", XY_10/Y_0))
+print(paste("P(X|Y)=P(0|1)=", XY_01/Y_1))
+print(paste("P(X|Y)=P(1|1)=", XY_11/Y_1))
+print(paste("P(Y|X)=P(0|0)=", XY_00/X_0))
+print(paste("P(Y|X)=P(1|0)=", XY_10/X_0))
+print(paste("P(Y|X)=P(0|1)=", XY_01/X_1))
+print(paste("P(Y|X)=P(1|1)=", XY_11/X_1))
+```
+
+***
+* **Task 3**. calculate and report **H(X)**, **H(Y)**, **H(X|Y)** and **H(Y|X)**.  
+**Solution**:  
+Sice we have
+$$H(X)=-\sum _{ i=1 }^{ n }{ p_{ i }\log _{ 2 }{ ({ p }_{ i }) }  } $$
+All results shown as follow:
+$$ H(X)=H(X=0)+H(X=1)\approx0.9765$$
+$$ H(X)=H(Y=0)+H(Y=1)\approx0.9709$$
+$$ H(X|Y)=H(0|0)+H(1|0)+H(0|1)+H(1|1)\approx1.9546$$
+$$H(Y|X)=H(0|0)+H(1|0)+H(0|1)+H(1|1)\approx1.6641$$
+```{r}
+print(paste("H(X)=", -1*((X_0/100)*log2(X_0/100)+(X_1/100)*log2(X_1/100))))
+print(paste("H(Y)=", -1*((Y_0/100)*log2(Y_0/100)+(Y_1/100)*log2(Y_1/100))))
+print(paste("H(X|Y)=", 
+            -1*((XY_00/Y_0)*log2(XY_00/Y_0)+
+            (XY_10/Y_0)*log2(XY_10/Y_0)+
+            (XY_01/Y_1)*log2(XY_01/Y_1)+
+            (XY_11/Y_1)*log2(XY_11/Y_1))))
+print(paste("H(Y|X)=", 
+            -1*((XY_00/X_0)*log2(XY_00/X_0)+
+            (XY_10/X_0)*log2(XY_10/X_0)+
+            (XY_01/X_1)*log2(XY_01/X_1)+
+            (XY_11/X_1)*log2(XY_11/X_1))))
+```
+***
+## Question 3: Correlation and covariance
+**Solution**: 
+As X and Y are two standard Gaussian random variables, we have
+$$ X\sim N(\mu_{X} ,{ \sigma_{X}  }^{ 2 })\Rightarrow X\sim N(0,1)$$
+$$ Y\sim N(\mu_{Y} ,{ \sigma_{Y}  }^{ 2 })\Rightarrow Y\sim N(0,1)$$
+Then
+$$ E(X)=0, D(X)=1 $$
+$$ E(Y)=0, D(Y)=1 $$
+Since X and Y are mutual independent, as we have U = X - Y adn V = 2X +3Y, we can infer that U and V are also Gaussian distributon, we have
+$$ { C }_{ 1 }{ X }_{ 1 }+{ C }_{ 2 }{ X }_{ 2 }+\cdots +{ C }_{ n }{ X }_{ n }\sim N(\sum _{ i=1 }^{ n }{ { C }_{ i }\mu _{ i } } ,\sum _{ i=1 }^{ n }{ { C }_{ i }^{ 2 }{ \sigma  }_{ i }^{ 2 } } ) $$
+Then
+$$ U=X-Y\sim N(0,1) $$
+$$ V=2X+3Y\sim N(0,13) $$
+$$ E(U)=0, D(X)=1 $$
+$$ E(V)=0, D(Y)=13 $$
+As we need to justify what is the correlation and covariance between U and V, first we calculate the covariance, we have
+$$ Cov(U,V)=E\{ [U-E(U)][V-E(V)]\} \\ =E\{ [X-Y-E(U)][2X+3Y-E(V)]\} \\ =E\{ 2{ X }^{ 2 }+3{ Y }^{ 2 }+XY-E(U)E(V)\} \\ =E(XY)-E(U)E(V)\\ =E(X)E(Y)-E(U)E(V)=0 $$
+If `Cov(U,V)=0` that means U and V have no correlation
+```{r}
+nRuns = 100000
+total_cor = 0
+total_cov = 0
+for (i in 1:nRuns){
+    U <-rnorm(1000,mean=0,sd=1)
+    V <-rnorm(1000,mean=0,sd=13)
+    total_cor = total_cor + cor(U,V)
+    total_cov = total_cov + cov(U,V)
+}
+cor_result <- total_cor/nRuns
+cov_result <- total_cov/nRuns
+print(paste("Correlation:",cor_result))
+print(paste("Covariance:",cov_result))
+```
+***
+## Question 4: Maximum likelihood estimation of parameters
+**Solution**:  
+As data `[4,3,2,4,6,3,4,0,5,6,4,4,4,5,3,3,4,5,4,5]` comes from a Poisson distribution with unknown parameter λ, we found the parameter by its likelihood function:
+$$\log { f({ x }_{ 1 },{ x }_{ 2 },\dots ,{ x }_{ n }|\lambda ) } =-n\lambda +\sum _{ 1 }^{ n }{ { x }_{ i }\log { \lambda  }  } -\sum _{ 1 }^{ n }{ \log { { x }_{ i }! }  } $$
+Hence
+```{r}
+P_data <- c(4,3,2,4,6,3,4,0,5,6,4,4,4,5,3,3,4,5,4,5)
+L <- function(lambda, data){
+    x_list <- as.double(names(table(P_data)))
+    n <- length(x_list)
+    sum_x = 0
+    sum_log_factorial = 0
+    result = 0
+    # compute all sums
+    for (i in 1:n){
+        x = x_list[i]
+        sum_x = sum_x + x
+        sum_log_factorial = sum_log_factorial + log10(factorial(x))
+    }
+    result = sum_x*log10(lambda) - sum_log_factorial - n*lambda
+    print(result)
+    return(result)
+}
+optimize(L, interval=c(0,10),tol=0.001, data=P_data, maximum = T)
+```
+As the result shown
+$$ \hat { \lambda  } \approx 1.447 $$
+Also,we do the point estimation to check:
+```{r}
+#Point Estimation
+PE <- function(data){
+    cnt <- table(data)
+    n <- length(data)
+    E = 0
+    for (i in 1:nrow(cnt)){
+        print(paste("value",i,"=",as.double(names(cnt)[i]),",","P(",i,")=",as.double(cnt[[i]])/n))
+        print(paste("E(X=",as.double(names(cnt)[i]), ")= ",as.double(names(cnt)[i])*as.double(cnt[[i]])/n))
+        E = E + as.double(names(cnt)[i])*as.double(cnt[[i]])/n
+    }
+    print(paste("E(X)=",E))
+}
+PE(P_data)
+```
+
+
+
+
+
+
+
+
+
