@@ -1,0 +1,13 @@
+@relation RN18-6.symbolic
+
+@attribute A {0, 1}
+@attribute B {0, 1}
+@attribute C {0, 1}
+@attribute Y {0, 1}
+
+@data
+1,0,0,0
+1,0,1,0
+0,1,0,0
+1,1,1,1
+1,1,0,1
