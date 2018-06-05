@@ -1,0 +1,48 @@
+---
+title: "FIT5197_ass3_wk9"
+author: "Chuangfu Xie, 27771539"
+date: "28/05/2018"
+output: html_document
+---
+
+### 1. Loading data and inspect
+```{r}
+data(iris)
+summary(iris)
+```
+
+### 2. Transform to boolean feature
+```{r}
+iris$SLC = iris$Sepal.Length < 6 
+iris$SWC = iris$Sepal.Width < 3 
+iris$PLC = iris$Petal.Length < 5 
+iris$PWC = iris$Petal.Width < 1.6
+```
+
+### 3. Using `table()` to build the 4 pairwise tables
+```{r}
+table(iris$SLC,iris$Species, dnn = c("SLC=Sepal.Length<6","Species"))
+```
+```{r}
+table(iris$SWC,iris$Species, dnn = c("SWC=Sepal.Width<3","Species"))
+```
+```{r}
+table(iris$PLC,iris$Species, dnn = c("PLC=Petal.Length<5","Species"))
+```
+```{r}
+table(iris$PWC,iris$Species, dnn = c("PWC=Petal.Width<6","Species"))
+```
+### 4. Extract data for fitting model
+```{r}
+train_data = iris[,5:9]
+model <- glm(Species~., family = binomial, data=train_data)
+```
+```{r}
+summary(model)
+```
+### 5. Naive Bayes Classifier
+
+```{r}
+sum(iris$SWC==T & iris$SWC==T & iris$PLC==T & iris$PWC==T)
+```
+

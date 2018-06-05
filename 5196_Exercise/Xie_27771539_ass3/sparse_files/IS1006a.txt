@@ -1,0 +1,351 @@
+B: Oops . 
+A: So , hello everyone . _ We're here to have a kick-off meeting for the design of a f for the beginning of new project um _ uh remote control for the design for a new remote control _ . I'm the Project Manager Christa Pavlov and _ okay let's begin . 
+A: _ 
+D: _ 
+A: _ So 
+A: I'm first going to do an opening then we get used to one anothers and we speak about this tool we're going to design and try to make a project plan , some discussion and then we talk of uh the next meeting . 
+**********
+A: So um we want to to do a new remote control . It has to be original , trendy and user friendly . 
+D: _ 
+A: Um I think the important points we have to t talk about are uh it's functional design , it's conceptual design , and desail detailed design . 
+A: and for that we're going um all to work individually and then have meeting during the whole day . 
+**********
+A: Um , so (laugh) let's try the whiteboard (laugh) . _ Um so any of you who want to go . 
+D: (laugh) 
+D: (laugh) Wow . (laugh) 
+B: Yeah , for favourite animals . It's gonna be not my favourite one but the one I can draw . (laugh) And it's gonna be you'll try to guess . 
+A: (laugh) 
+A: (laugh) 
+C: (laugh) 
+D: Wow . (laugh) 
+D: _ Complex . 
+A: Wow . (laugh) 
+C: (laugh) 
+D: Huh ? 
+D: A cat . 
+A: (laugh) 
+C: No . _ 
+B: No . (laugh) 
+C: (laugh) 
+D: No . Darn . (laugh) 
+A: (laugh) 
+D: Uh . 
+A: A rabbit . 
+B: Yes , that's a rabbit . That's my favourite one . 
+D: A what ? 
+A: _ A rabbit . 
+D: A r a rabbit , oh oh yeah , where is the carrot ? (laugh) Okay (laugh) mm-hmm . 
+C: Rabbit . 
+B: (laugh) That's it . 
+A: (laugh) 
+C: (laugh) 
+A: You want to go ? 
+D: I am not very good at uh (laugh) this kind of stuff . My favourite animal is (laugh) 
+B: Hmm . (laugh) 
+C: (laugh) 
+D: (laugh) 
+C: (laugh) You wa 
+A: (laugh) 
+B: Wow . (laugh) 
+A: A human (laugh) ah . 
+C: (laugh) 
+D: Guess . (laugh) A human , yay . It's a very complex animal (laugh) and um yeah . Characteristics of this this animal is (laugh) dangerous . (laugh) 
+A: (laugh) 
+C: (laugh) 
+B: No . 
+A: (laugh) 
+C: (laugh) 
+A: Mm I think you're supposed to , yeah . 
+C: Is the white okay . 
+A: Hmm . 
+C: I guess you can (laugh) . (laugh) 
+A: (laugh) 
+B: Wow . That's cobra . 
+D: Ah , a kind of uh snake ? Cobra ? Exactly _ . (laugh) 
+C: Yeah uh not really . (laugh) Small cobra . (laugh) 
+B: No , it just small cobra , yeah . 
+A: (laugh) 
+D: Uh-huh . (laugh) 
+A: (laugh) Is that a worm ? Or _ (laugh) 
+B: It's co c quite recognisable . (laugh) 
+C: (laugh) 
+D: (laugh) 
+A: (laugh) 
+D: What about you uh (laugh) Christa ? (laugh) 
+A: _ Uh yeah Christa Pavlov (laugh) Mm . 
+C: (laugh) 
+C: Chris . _ 
+B: Christa _ Christa . 
+D: A fish . (laugh) 
+C: Mm . 
+B: Hmm . 
+A: Smiling fish (laugh) . 
+C: Smile fish . (laugh) 
+B: (laugh) Okay . 
+D: A smiling fish . (laugh) Mm-hmm . So , w whiteboard is working ? (laugh) Good . (laugh) Next . (laugh) 
+A: Mm-hmm . 
+A: Yeah . (laugh) Next . Let's talk about money . 
+C: Yeah . (laugh) 
+B: (laugh) 
+B: Just tr try to guess who is a User Interface Designer . (laugh) According to the drawings . (laugh) Okay . 
+D: (laugh) Yeah , well . (laugh) 
+C: (laugh) 
+A: (laugh) 
+C: (laugh) Yeah , you're 
+A: (laugh) 
+D: Not me . (laugh) 
+**********
+A: _ So . 
+D: So . Twenty five Euro for a remote control . 
+A: Yeah , mm that's the price we want to that's the aim for the price for the remote control . We aim to do _ this profit . 
+C: Hmm . 
+D: Okay . 
+C: (laugh) 
+D: (laugh) 'tis big number . 
+A: (laugh) 
+B: (laugh) On the international market . 
+A: (laugh) Yeah . Mm-hmm . 
+C: Yeah , we're to sell two million then . 
+A: (laugh) 
+B: Wow . 
+D: Mm-hmm . 
+A: Mm _ for a production cost of mm twelve fifty Euros maximum . 
+A: _ 'Kay _ . 
+**********
+A: So any of you have experience in remote controls ? (laugh) 
+D: Uh yes , we have plenty at home . (laugh) In fact , my daughter likes l (laugh) (laugh) remote controls . To eat ? Yeah , mainly , and to break . (laugh) 
+C: Mm yeah . 
+A: (laugh) 
+C: (laugh) 
+C: (laugh) 
+A: _ That 
+B: Mm . To eat ? (laugh) 
+C: (laugh) 
+A: (laugh) 
+C: (laugh) 
+A: (laugh) So that could be a great um _ application . Remote controls children proof . Mm mm-hmm . 
+D: Mm-hmm . Yeah . _ Ye ye yeah . 
+B: Children proof . 
+B: Hmm . 
+D: So she likes uh buttons (laugh) which make click , so (laugh) it has to click . 
+C: Yeah , pret 
+A: _ Okay . 
+A: (laugh) 
+A: So they have to be waterproof maybe ? (laugh) 'Cause they eat she ate it . (laugh) 
+D: It has to be uh wha (laugh) baby proof (laugh) yeah (laugh) but mainly it has to be very robust because even if she's not very tall she's uh (laugh) high enough so that uh when she throw it away it's uh 
+C: (laugh) 
+A: Mm-hmm . 
+C: Yeah . 
+A: (laugh) 
+C: _ Ah . 
+D: So it has to be very robust . 
+B: Okay , unbreakable . 
+D: Unbreakable , yeah . 
+C: Yeah , we have some child lock or something , yeah . 
+B: Uh-huh . 
+D: Mm-hmm . 
+A: Mm-hmm . 
+D: And uh 
+D: _ it has to be nice looking , 
+C: Yeah . 
+D: colourful , maybe 
+A: Colourful , yeah mm . 
+B: Colourful ? That's not practical . 
+D: colourful , because uh nobody has colourful remote control , they're always black , yeah , but this one could be I dunno , purple or b 
+C: Yeah . 
+A: No , that's a good idea . 
+C: Yeah , it's always black or yeah . 
+A: Mm mm-mm . 
+B: No . 
+B: But how gonna okay , just uh but it's uh monochrome it's n it's not like 
+A: Yeah . (laugh) 
+C: Yeah . 
+D: Yeah , yeah . 
+A: No , because you think , why not . 
+C: Yeah . 
+D: One colour . 
+B: Otherwise you will never find it . 
+C: Yeah . 
+D: Yeah , yeah . 
+C: Yeah even we can change colours , no ? Like the uh like the phones and these things we c yeah . At least for children like one colour and . (laugh) 
+D: Oh like the phones , yeah , it could change colours , yeah . 
+B: Cool . 
+A: Mm-hmm . 
+B: Ch 
+D: Yeah . (laugh) 
+D: Good . 
+A: Good idea . 
+C: And it should be really small and . 
+A: Small also ? Don't you think 
+C: Huh not so big like yeah . 
+A: No uh , not too much buttons or mm . 
+C: Yeah , not too much buttons and 
+D: _ Should it be , y you know these uh remote controls where um they are what they call a universal ret remote control so y you can decide that now it's the remote control for the television , then it's the remote control for the the sound system , or for your refrigerator (laugh) whatever _ I dunno if it's 
+A: Mm-hmm . 
+C: Uh . 
+C: Yeah . 
+C: (laugh) 
+A: (laugh) _ Yeah , that's 
+A: _ 
+D: Or if we should have a targeted re remote control . 
+A: Okay . 
+D: _ So colour , robustness , easy to use , size , yeah , size matters , yeah . (laugh) 
+A: So , I think there's 
+C: Yeah . Colour , (laugh) size , sh 
+A: So you you think it's better if small 
+A: than bigger . 
+C: Yeah , maybe at least n not bigger than this I guess . (laugh) 
+D: Mm . 
+D: (laugh) 
+B: Yeah , but without any extremes like n not of this size , not too large . Okay . 
+A: No , not too small , yeah . 
+C: Yeah yeah , at least it should hold in your hand n properly , like . 
+D: Yeah . 
+A: Hmm . 
+B: Yeah , like a palm sized . 
+C: Yeah . _ 
+D: Mm . 
+B: Just to hold it . 
+A: Okay . 
+D: But uh what would be different from this , from the others ? I dunno if (laugh) 
+C: Uh maybe we can change the colours that at least the frame . Mm . S so then it depends you are to 
+D: Yeah , at least the colour would be different . 
+A: Mm . 
+C: Mm I mean you c you can easily remove the frame . 
+D: I think one thing important for instance in this remote control if you remember when people use it they're they never find a good button in the right place . 
+C: Yeah , yeah . 
+A: Mm-hmm . 
+D: For some reason they they they click the off button when they want to use the 
+C: Yeah . 
+C: Yeah . 
+D: So there's a problem in the design of that kind of remote control somehow , I dunno . 
+**********
+A: Mm . So , some kind of idea uh with um um _ cellular phone with a a screen that will tell you what no . 
+B: No , no screens , it's too complex . 
+A: Okay . 
+D: (laugh) Too expensive for twelve Euro ? 
+C: Mm . (laugh) Too expensive , yeah . 
+B: And n maybe not too expensive , well it's not my problem , but well okay . But no screens on remote controls . 
+A: And too expensive . 
+D: Ah . 
+D: Mm-hmm . 
+D: I thought it could be only a screen (laugh) which would change depending on uh uh the use or even the user . 
+A: Mm . 
+**********
+D: I thought it could be only a screen (laugh) which would change depending on uh uh the use or even the user . 
+D: So ma I prefer to have the off button at the top right , so I would have my own design of the remote control because it's in fact just a a full touch screen remote control , if you if you like . 
+B: Mm-hmm . 
+C: Ye yeah . 
+C: Hmm . 
+C: I mean it it's like it's like two types no ? _ people are right handed or left handed so y because I am left handed I use like this , say if you're right handed you use like this or so tha your switch on and off should be on yeah . 
+D: I don't know if it makes sense , but 
+A: Mm-mm . 
+D: Yeah , for instance , mm . 
+B: Mm-hmm , mm-hmm . 
+A: Mm-hmm . Mm mm mm . 
+D: Mm . 
+A: So adaptable _ yeah something yeah . 
+B: Adaptable . Alright , good , so how many actions do we need to implement in it ? 
+D: Maybe , if if it's possible , yeah . 
+C: Mm _ huh . 
+B: On off ? 
+C: Maybe I think even we can keep two switches and then we can uh only make one working . 
+D: (laugh) 
+D: Yeah . 
+C: We can adapt only one switch , suppose here like we can make two switches and if I'm left-hander I use this switch to follow the main operations . 
+B: I mean if it's less than three uh then we can make it uh like a 
+C: Two . 
+D: Three buttons you mean ? 
+B: _ like three mental states , yeah you know what I mean , we can just make it uh 
+A: Three option . 
+D: Ah . (laugh) 
+C: (laugh) 
+A: (laugh) 
+C: (laugh) Yeah . 
+C: Yeah . 
+A: Um . 
+B: controlled by a brain , huh ? (laugh) 
+A: Mm-hmm . (laugh) Maybe if it's more , if there is a software inside that ask you three 
+D: (laugh) 
+C: (laugh) 
+D: Mm-hmm , yeah , sure . (laugh) 
+C: (laugh) 
+B: Mm-hmm . 
+D: _ (laugh) 
+A: Hmm . (laugh) If it if we want a r universal remote control that we sa like we say before it may 
+C: (laugh) 
+A: may need more than three mm three button , three mm possibilities , ye yeah . 
+B: Sh sure , sure . 
+D: Yeah , more than three actions that you may want to do at a given time . 
+C: Mm yeah . 
+C: Yeah . (laugh) 
+B: But for standard actions you usually what do you do , you change channels , you adjust volume , and nothing else . 
+D: Yeah but for instance when you change channels you can have you can just go to the next one or go to channel twenty five . 
+C: Mm . 
+C: Yeah . 
+A: Mm . _ 
+D: And that's already more complex to go to channel twenty five . (laugh) 
+B: Mm-hmm . You do this ? 
+A: _ 
+C: Yeah _ . 
+D: Uh no . (laugh) Because I'm only using three or four channels but (laugh) 
+C: _ 
+B: I usually just change channels . 
+C: (laugh) Yeah . But they keep generally their t slash slash uh this thing and then the dash dash and then you can put yeah , you can only have one bit . 
+A: Yeah . I change channel like this , m uh I want to go to twenty five , and then to ten , uh-huh mm yeah . 
+C: Dash . 
+D: And then back to the one I was before , so there's whichever it was . 
+A: Also we can be here yeah , that would be cool . 
+B: Uh-huh . Go back button is good . I once had it . 
+C: Yeah you can yeah . 
+C: Yeah . 
+D: Yeah . Uh uh we had that in in other countries . (laugh) Yeah e even the history so you could like uh undo (laugh) previous of the previous . (laugh) 
+C: Yeah yeah , the previous button is . 
+A: Mm (laugh) yeah . 
+B: Mm-hmm . 
+C: Uh , okay . (laugh) 
+B: History . (laugh) 
+C: Oh (laugh) uh (laugh) . 
+A: (laugh) 
+D: Then you can watch what your ah you could also record your record your (laugh) sequence of actions , (laugh) that becomes more complex , but you could look at what uh the other people have used there or (laugh) remote controls . (laugh) Yeah (laugh) maybe it's a 
+C: Uh . 
+A: _ 
+C: Yeah . 
+C: (laugh) 
+C: (laugh) 
+A: (laugh) 
+C: (laugh) 
+C: Yeah yeah , what the which channels the viewer (laugh) 
+A: Mm-mm . 
+**********
+**********
+A: _ Okay . So I think we have full of idea . 
+D: Okay . 
+A: Um we're going to meet again in thirty minutes and uh I want you to mm _ 
+A: work on these ideas and try to make a 
+A: uh _ the ones , _ make um to decide what what are the ones important and what are the one that we don't want . 
+A: _ And um m maybe more in the technical parts what uh do we want to do . 
+A: Um . 
+A: _ So um your personal coach will send you some instruction for for this thirty minutes . 
+**********
+D: So what does M_E_ means ? M_E_ the user requirements ? Or that's uh that's for us ? 
+B: Market Expert . 
+C: Marketing yeah (laugh) . 
+D: Uh that's me . (laugh) Oh , of course (laugh) yeah , the user requirement specifications , uh-huh , yeah . 
+A: Mm . (laugh) 
+B: (laugh) 
+A: Mm-hmm . 
+D: Okay . _ I'll think of that . 
+A: Mm okay . 
+**********
+A: So . 
+D: So ? 
+A: I think that's all . 
+D: Meeting's over ? Great . 
+A: Yeah . 
+B: Okay . 
+C: Thank you . 
+D: Thank you . 
+B: Thank you everybody . 
+A: See you in thirty minutes . 
+**********

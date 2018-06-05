@@ -1,0 +1,700 @@
+C: Like this one . 
+C: It's important . 
+C: Uh I think th this is device which which has a learning curve . Um novice users u use this device as uh normal users use uh a c a remote control . And after a while they start to develop uh some skills in the the voice recognition functions , and then they will not use this dial as often . But other users who are new to this device need something like that . They n they need to understand what uh how to change channels and uh change the volume , so it's easier for them 
+A: Okay . 
+A: Could could I see the scroll bar as uh as as a sort of shortcut ? 
+C: Yeah , maybe so . Yes , it's 
+A: A a and the voice recognition as well , th maybe you could uh could uh 
+C: Well , it's it's it's another approach , it's more that our um . (laugh) There are there are many ways of doing uh things uh on such a device . It's it's quite easy . 
+A: (laugh) 
+A: Yeah . Okay . Okay , good . And and the case is is rubber ? 
+C: Yes , rubber ? 
+A: And the buttons ? 
+B: _ Plastic or rubber . Well , yeah . 
+C: _ There are plastic or rubber . 
+A: Okay , and uh the colouring ? 
+C: Uh yellow with uh 
+A: with with grey or black . 
+C: grey or black or something like that . Whatever cost uh cost uh the least . (laugh) 
+A: (laugh) Okay , we'll we'll come to that later . Um 
+B: (laugh) 
+C: (laugh) 
+A: okay . Anything else to add or 
+C: No . _ Uh maybe we should uh think about these buttons . _ But 
+A: Yeah . 
+D: Well , you could use two of them to programme the um channels on the two channel button , 'cause you have to assign two channel new channels . 
+C: Yes , but it but these are tasks that are only executed once , I think . Or not ? 
+A: M uh yeah . M m but maybe you do want a programme button to uh for example activate the voice recognition , or train the voice voice recognition . 
+D: You 
+C: Well okay . Okay , yeah , that's right . Or something li like that . 
+B: And a button for disabling the voice recognition . 
+A: Yeah al although by pressing the button for I n don't know two , three seconds , you could also say it you'd disable it with a little beep and and but o okay , that that's not really really important . 
+C: Yes . 
+B: Yeah . 
+B: _ That's the basic idea , yeah . 
+C: _ 
+A: The basic okay . 
+B: Of our prototype . 
+A: Okay . 
+A: Um you thought of some evaluation crit criteria ? 
+**********
+D: Yes . 
+A: Okay . 
+D: Uh my name is not name but 
+C: (laugh) 
+A: (laugh) You are nameless . (laugh) 
+B: (laugh) 
+D: Uh well , I used the the uh documents . 
+D: And these uh 
+D: were the most important criteria . 
+C: (laugh) Is it spongy ? (laugh) 
+D: It should be . (laugh) yeah , that's uh how the fashion guys uh state it . Fancy look and feel . So 
+A: (laugh) 
+B: (laugh) 
+B: So just walk through it step by step . I mean , is it fancy , everything I believe uh 
+D: Uh well appar 
+B: I believe it's fancy . (laugh) 
+C: I believe it's fancy too . 
+D: Yeah , but apparently uh we shouldn't evaluate yet . So 
+A: No . 
+B: Oh , sorry . 
+C: Okay . 
+A: Okay , so this these are the cr uh the criteria . 
+D: Yeah , I think these are the most important criteria . 
+A: Okay , well 
+D: So uh that's about it . 
+**********
+B: Twenty two . 
+A: Yeah , it's it's w way above um uh above the the the twelve Euro fifty . And what makes it very expensive is uh for example the solar cell . So I guess we should skip that , because it's not that important . 
+B: Yikes . 
+C: Well it's very expensive . 
+C: Okay . 
+B: Why does the price and and the s oh , one uh exa yeah . 
+A: Yeah , the the price , the the number of items and the the sum . Um well , this is what I would call our luxury model . Um if you would if you look at the uh w w w what we could do to make it more um 
+B: The number of uh yeah . 
+C: _ Okay . 
+B: And and does it 
+A: _ to make it _ just between the twelve Euro fifty , um then I 
+A: did the following changes . Twelve Euro forty cents I came up with by leaving out the solar cells , um by not using the voice recognition feature , because it's uh it's a four Euro uh addition to the price . Um 
+C: Mm-hmm . 
+C: Mm-hmm . 
+A: Yeah , I believe 
+A: Uh , push-button , well _ 
+A: It makes it the thirteen yeah . 
+A: Push-buttons are buttons are are not the most expensive , but do add extra cost . So um yeah , th this design is not um 
+C: Hmm . 
+A: within our price model . 
+C: Okay . 
+A: Um 
+C: But I'm afraid it's not complete . Because we use spec uh specic uh special materials , the last item . And you have not added one item there . 
+A: Yeah . 
+C: So it's c way too expensive . 
+A: It's still too expensive , yeah . Um 
+B: But that's that's only for the buttons . So the button we can use plastic . 
+A: I I guess if we leave the if we leave this one out , um oh . (laugh) 
+C: (laugh) 
+A: And uh maybe not use the special form . 
+B: And the pla uh 
+B: And a plastic b just plastic buttons , a plas uh instead of rubber . 
+C: But it 
+A: _ It becomes a very dull remote control , I know . But it's the board decision . Um 
+C: Yes . 
+A: And um yeah . 
+C: Well , b basically it _ when when this is our only option , we should even consider changing the casing , because I think there's very little added value in uh an enhanced case with these dull functions . So 
+A: Yeah . 
+A: Yeah , I know . Maybe we should look at an uh focus on another uh 
+C: Type of m maybe another market segment . 
+A: Yeah , m uh maybe not not all that fancy , but just way way more easy uh uh um basic and uh m maximise the profits and um 
+C: Yeah . 
+C: Yes . 
+C: That's maybe that's better . _ Maybe we could uh we should go for straight and simple , but that's not what uh has been asked . 
+A: Yeah . 
+A: Yeah . 
+A: I know , I know . 
+C: So we should kick the board's uh (laugh) Well 
+A: (laugh) Yeah . Although I think we yeah , but we could still make uh a remote control that ap uh um applies um more to young people uh by giving it another colour already . Um so it is possible to make uh uh a device that attracts a little bit more to young people . 
+C: Hmm . 
+C: Yes . 
+A: Um but uh I agree it's it's not a fancy high-tech uh device . Definitely not , no . 
+C: _ 
+A: _ It's not that innovative . Or however you s pronounce that . Um so , okay . 
+B: (laugh) 
+C: _ 
+B: Yeah , too bad . _ 
+A: _ Um 
+A: Oh , this is the wrong one . 
+A: So uh that means redesign . 
+**********
+B: Mm-hmm . 
+A: uh the satisfaction on how things went . Um I'm not sure if we need to evaluate uh the device first . 
+A: I guess 
+D: Um well , since we're not gonna manufacture it anyway (laugh) 
+A: Yeah . (laugh) 
+B: (laugh) 
+C: _ 
+A: Yeah , that's true . 
+C: Well , maybe it's good to do it anyway , because if we evaluate it , we we can also determine if our objectives are good . So 
+A: We l we can learn . 
+A: Yeah . 
+A: Yeah . 
+A: I agree . Well 
+**********
+A: I d it is it is (laugh) 
+C: (laugh) 
+D: Uh 
+C: (laugh) 
+D: Yay . 
+D: Is it ? 
+D: Is it fancy ? 
+A: Yeah , I think so . 
+B: Um the yellow rubber , I think so . 
+C: I think so . 
+A: _ You like the rubber , uh Roo . 
+B: (laugh) I'm into it . (laugh) 
+D: (laugh) 
+A: (laugh) 
+C: (laugh) 
+D: So uh one ? 
+A: Yeah . No , I'll I'll I'll give it a two . 
+C: But it's not that fancy . 
+C: I mean 
+C: I think uh I think it would have been more fancy if we used the titanium housing the casing . It would be even more oh , you really like titanium . I'm I'm into it . (laugh) 
+A: You like tita (laugh) 
+D: (laugh) 
+B: (laugh) 
+A: That's a flavour as well . 
+B: (laugh) 
+C: It has flavour . Yes , that's right . (laugh) You should taste it . (laugh) 
+A: (laugh) Right . Um 
+B: (laugh) 
+D: Is it uh 
+A: Yeah , I know , but but it but that's fancy in the way um 
+A: _ 
+A: I mean fancy has has a lot of 
+C: It has to do with fashion , I guess . So do 
+A: Yeah . 
+B: It's trendy trendy , fun _ yeah . 
+D: And w yeah , w what they want wanted was uh colours and soft materials . So in that way 
+A: Yeah . 
+A: It applies . It yeah . 
+D: It it's fancy . 
+B: Well , just _ give it a two . 
+C: Okay . 
+A: Yeah . 
+C: Yes . I think I th I think it would have been I would have think uh it could have been more fancy by using the double-curved case . It would have been even more fancy , but we decided not to , because if we use a double-curved case , we could not use solar . So 
+B: It's not the ultimate uh fancy two , but 
+B: Yeah , but that's sti that's uh 
+B: _ Looking at the user uh needs , we only uh don't we don't have the double-curved case . We w we do have uh the rubber , we do have the colours . That's two out of three . 
+C: Yes . 
+B: So I believe uh we are close uh to two . 
+A: Yeah , I I agree . 
+C: Yes , I agree too . It's okay . We did yes , we did good . 
+**********
+B: (laugh) 
+A: Well , with the voice recognition feature and uh 
+D: (laugh) 
+B: But that's not in it . Ov or can we 
+D: Yep . 
+C: Well , let's let's this product . 
+A: No , we are evaluating this this uh design now . 
+B: Okay . 
+C: So I I I think it is . I think it's innovative . 
+A: This prototype . 
+A: Yeah . 
+B: _ And the scroll uh wheel . The solar not many remotes 
+B: have the solar , I think . 
+C: No . It could have been a little bit more innovative u by using the kinetic uh energy source , but it's it's way too yes , but 
+D: Yeah , and uh 
+A: That would have been a thrill . 
+D: So uh also a uh two ? 
+C: I think uh it's a two . 
+A: Yep . 
+**********
+A: I'm not sure . (laugh) 
+B: Yeah . 
+C: (laugh) 
+D: (laugh) 
+A: I'm not sure . 
+B: Well yeah , the voice recognition of course is hard to learn , I think . 
+B: Well , hard it's not for the for the e for the elderly . 
+C: _ Well , but there are two parts in this remote control . What you see here is is the basic part . Everybody can use it , so that's easy to use . That's for a novice user . When you have a more advanced , elaborate user , well , such a user really would like to explore all these additional functions . 
+B: They won't use it . 
+A: Yeah . 
+C: So in that in that way it is advanced , 
+A: Yeah . 
+C: and I think it's easy to use for for both uh types of users . 
+B: I think 
+C: So uh 
+C: It's maybe it's not very uh easy for 
+B: I think a three . (laugh) Wouldn't give it more . 
+A: Uh I'm doubting doubting as well . Um 
+D: Well the p the most important function is easy to use . 
+A: Yeah . 
+D: The the zapping , channel switching , volume . 
+D: But the more advanced functions are probably 
+D: a bit harder . 
+A: Okay . Uh two or three ? Three ? Wha wh what would be your guess ? I mean ease of use um does not only apply to the most basic functions . It's the uh it's it's overall . Is the device easy to use ? 
+C: Okay . 
+C: Yeah , that's right . You're right in that , but I I guess uh an advanced user will will find the voice recognition function easy to use , 
+A: Yeah . 
+C: because he is already he or she is already an advanced user . 
+C: So 
+**********
+A: Yeah , definitely . 
+C: Yes . 
+B: Yeah , we haven't re uh re uh really worked it out , but you c you can you can just say find and he repeats find . 
+C: It it most definitely is it's very easy . 
+A: Yeah , or beeps or yeah . 
+B: Yeah , but that's the that's the the basic idea of the the speaker uh 
+C: Yes . 
+C: Maybe Uh I I think I think something like that . Maybe you have to uh programme it once , so to that l respond to uh a certain word or a certain sentence , something like where are you , and then it will sing I'm here . So something like that . So , I th 
+A: I'm here , I'm here . (laugh) 
+A: Yeah . 
+A: Yeah . 
+B: But even without it 
+D: (laugh) 
+A: Yeah . 
+A: Well , I uh we should not uh stay too long on this subject uh because of the time , but I personally give it a one . Um Sebastian ? 
+B: Yeah . 
+C: _ 
+C: Yeah , me too . 
+B: Me too . 
+D: Yeah , I agree . 
+**********
+D: (laugh) 
+C: Well , it can be . There are cases um in which the outside casing is um can be uh how d how do you prono is is moldable . No , it's not one of our option , but when you look in the market , when you look 
+B: Was it one of our options ? 
+D: No . Uh this this was a most spongy option . (laugh) 
+A: No okay , but but 
+B: So , in the in 
+A: for the options given , it's the most spongy one . 
+C: Uh yes , but that's not that's not uh what they are talking about , I think . Because we compare all these uh characteristics characteristics with uh market uh with with the real market . So there are uh remote controls out there which are a lot more spongy . They're out there . (laugh) Yes , but it's not good enough , so it's a two . 
+B: Yeah . 
+A: Yeah . Yeah . 
+A: (laugh) They're out there . (laugh) Yeah . 
+B: (laugh) But I think in this case in this case we've done the best we could . 
+D: (laugh) 
+A: (laugh) I'll give it a one . 
+B: (laugh) _ I wan I'll take one . 
+C: You take one ? What do you give it ? 
+D: Well yeah , it depends , 'cause it's the most spongy we could but yeah . 
+A: Yeah , I know , but you have to name a fig uh a number . _ 
+A: Because we need to go on in for the time . 
+D: Well , if I give it a one 
+B: It will be a one . (laugh) 
+D: there'll be one hell of a calculation . So I'll just give it a two and make this a one point five . 
+C: No no no . Uh I'll I'll change it , I'll make it m my my mark will be a four . (laugh) 
+A: (laugh) You are okay . The remote control offers enough features . Well , Ruud , what what do you think about it ? 
+B: (laugh) 
+D: (laugh) 
+B: (laugh) 
+B: _ 
+D: Well , the basic layout doesn't offem offer much , but the voice recognition could add a lot . So 
+C: _ Basically it's it's completely programmable . You can add very m much functionality by uh using the voice recognition mode . 
+D: Yeah , depends . 
+A: Yeah . 
+A: Yeah , I know . What what we didn't talk about is um uh 
+C: So it's quite advanced . 
+B: Yeah , but _ it ha doesn't has the digits . I believe it's 
+B: If you uh ask yourself it offers enough features , I don't I don't think 
+B: it is it has all the features um a normal remote has . 
+A: I think it has . 
+D: Uh depends on what you uh implement in the speech feat 
+A: Yeah . Bec because you can um we didn't talk about it , but you do have uh remote controls that are able to adapt another signal . So , you place a a regular uh remote control in front of the other one , hit the one or the two or the three , whatever , and it r records the uh the um the the signals . So you could uh uh uh 
+C: Yes . 
+C: Has uh the signals sent to it . 
+D: Signal . 
+B: Yeah . 
+A: enter any comment you like , as long it's able to as long as our device is able to reproduce the infrared signal . 
+A: So I think th this uh this is uh a a remote control with a very high level of features . Although there are i a few buttons , but the inside is is quite uh advanced . 
+C: Absolutely . 
+C: Yes . 
+C: But that that's its power , I guess , because uh a regular programmable uh remote control contains , well , uh really a lot of buttons . At at least uh forty buttons . So it's it's quite s complicated to get uh to get used to . And this is quite s simple . You can use your voice to to programme it . It's 
+A: Yeah . 
+A: Yeah . 
+A: Yep . 
+A: Yeah . Okay , um let's give it a number . I'll give it uh a one . For for the for this t uh type of market , I think it's a one . 
+B: I'll give a two . 
+C: _ Yeah , I'll give it a one . 
+D: Um I think think a one , 'cause v with a voice recognition you could add anything you want , so that's like um 
+**********
+A: Yeah . 
+C: After all , I think personally I would give a two . But 
+A: Um 
+A: Okay . Uh Roo , a three ? Ruud ? 
+B: Yep . 
+D: Good question . 
+D: Uh I'll go uh for the two . 
+A: Okay . (laugh) 
+D: (laugh) 
+C: So , it's two , two and three . Two threes . So that's ten . 
+B: (laugh) 
+A: So I could make it e easy ? 
+B: If you make it a four it will be three in general . 
+C: So that's w 
+C: No , two and a half . 
+B: If he makes it a four . 
+C: Six and four . Six and four is ten . Divided by four is two and a half . 
+B: Not a three . 
+C: So 
+B: Darn . Nee . 
+D: Hmm ? Huh ? 
+C: Yes . (laugh) 
+A: Roo . (laugh) 
+B: A seven , a three _ No . A four and a three together . Yeah , you have a two , he has a two . Three ? And a three ? Nee . I know . 
+D: Yeah . I yeah . 
+C: (laugh) 
+C: Four ? 
+D: Yeah , two , two , three 
+C: Two ? 
+A: No , I haven't said anything yet . 
+D: No . (laugh) 
+A: Okay , but if I would say a three , then it's six , and four is ten . Divided by four is two point five . 
+C: Divided by four . 
+B: Yes . So if you want to have the conclusion as a three three . Then you would make a four . If you fill out a four _ (laugh) 
+A: But I'm filling in a three . Does it will so it will be a two point five . 
+C: That's not even 
+D: (laugh) 
+C: But that's not possible to fill in , so we have to round it . (laugh) 
+A: Yes , it is . (laugh) I have a veto . (laugh) Exactly . It's not about the content , it's about okay , um is it easy to f 
+D: (laugh) 
+D: Is it easy to find ? (laugh) 
+A: Yeah , definitely . 
+C: Yes . 
+B: Yeah , we haven't re uh re uh really worked it out , but you c you can you can just say find and he repeats find . 
+C: It it most definitely is it's very easy . 
+A: Yeah , or beeps or yeah . 
+B: Yeah , but that's the that's the the basic idea of the the speaker uh 
+C: Yes . 
+C: Maybe Uh I I think I think something like that . Maybe you have to uh programme it once , so to that l respond to uh a certain word or a certain sentence , something like where are you , and then it will sing I'm here . So something like that . So , I th 
+A: I'm here , I'm here . (laugh) 
+A: Yeah . 
+A: Yeah . 
+B: But even without it 
+D: (laugh) 
+A: Yeah . 
+A: Well , I uh we should not uh stay too long on this subject uh because of the time , but I personally give it a one . Um Sebastian ? 
+B: Yeah . 
+C: _ 
+C: Yeah , me too . 
+B: Me too . 
+D: Yeah , I agree . 
+A: Right , well . The feel of the remote control is spongy . Well , uh it can't be more spongy . So _ 
+D: (laugh) 
+C: Well , it can be . There are cases um in which the outside casing is um can be uh how d how do you prono is is moldable . No , it's not one of our option , but when you look in the market , when you look 
+B: Was it one of our options ? 
+D: No . Uh this this was a most spongy option . (laugh) 
+A: No okay , but but 
+B: So , in the in 
+A: for the options given , it's the most spongy one . 
+C: Uh yes , but that's not that's not uh what they are talking about , I think . Because we compare all these uh characteristics characteristics with uh market uh with with the real market . So there are uh remote controls out there which are a lot more spongy . They're out there . (laugh) Yes , but it's not good enough , so it's a two . 
+B: Yeah . 
+A: Yeah . Yeah . 
+A: (laugh) They're out there . (laugh) Yeah . 
+B: (laugh) But I think in this case in this case we've done the best we could . 
+D: (laugh) 
+A: (laugh) I'll give it a one . 
+B: (laugh) _ I wan I'll take one . 
+C: You take one ? What do you give it ? 
+D: Well yeah , it depends , 'cause it's the most spongy we could but yeah . 
+A: Yeah , I know , but you have to name a fig uh a number . _ 
+A: Because we need to go on in for the time . 
+D: Well , if I give it a one 
+B: It will be a one . (laugh) 
+D: there'll be one hell of a calculation . So I'll just give it a two and make this a one point five . 
+C: No no no . Uh I'll I'll change it , I'll make it m my my mark will be a four . (laugh) 
+A: (laugh) You are okay . The remote control offers enough features . Well , Ruud , what what do you think about it ? 
+B: (laugh) 
+D: (laugh) 
+B: (laugh) 
+B: _ 
+D: Well , the basic layout doesn't offem offer much , but the voice recognition could add a lot . So 
+C: _ Basically it's it's completely programmable . You can add very m much functionality by uh using the voice recognition mode . 
+D: Yeah , depends . 
+A: Yeah . 
+A: Yeah , I know . What what we didn't talk about is um uh 
+C: So it's quite advanced . 
+B: Yeah , but _ it ha doesn't has the digits . I believe it's 
+B: If you uh ask yourself it offers enough features , I don't I don't think 
+B: it is it has all the features um a normal remote has . 
+A: I think it has . 
+D: Uh depends on what you uh implement in the speech feat 
+A: Yeah . Bec because you can um we didn't talk about it , but you do have uh remote controls that are able to adapt another signal . So , you place a a regular uh remote control in front of the other one , hit the one or the two or the three , whatever , and it r records the uh the um the the signals . So you could uh uh uh 
+C: Yes . 
+C: Has uh the signals sent to it . 
+D: Signal . 
+B: Yeah . 
+A: enter any comment you like , as long it's able to as long as our device is able to reproduce the infrared signal . 
+A: So I think th this uh this is uh a a remote control with a very high level of features . Although there are i a few buttons , but the inside is is quite uh advanced . 
+C: Absolutely . 
+C: Yes . 
+C: But that that's its power , I guess , because uh a regular programmable uh remote control contains , well , uh really a lot of buttons . At at least uh forty buttons . So it's it's quite s complicated to get uh to get used to . And this is quite s simple . You can use your voice to to programme it . It's 
+A: Yeah . 
+A: Yeah . 
+A: Yep . 
+A: Yeah . Okay , um let's give it a number . I'll give it uh a one . For for the for this t uh type of market , I think it's a one . 
+B: I'll give a two . 
+C: _ Yeah , I'll give it a one . 
+D: Um I think think a one , 'cause v with a voice recognition you could add anything you want , so that's like um 
+C: Yes . I I've I think we've uh succe succeed in in developing a product that's actually quite good , but not for this kind of market , and not for this kind of price . So 
+B: (laugh) 
+B: (laugh) 
+A: Yeah . So high quality , low acceptance . 
+C: Hmm . 
+A: The product is is is uh b high qua uh has a high quality and and is uh advanced . But 
+C: Yes . 
+A: _ 
+A: whether or not our clients are are um willing to pay twenty five Euros for this kind of device is doub is well , is not sure . D do you agree ? 
+C: Mm-hmm . 
+C: Mm-hmm . 
+C: Yes , I agree . I 
+D: Maybe even because it doesn't look advanced . 
+A: (laugh) Yeah . Maybe we should have a radar uh (laugh) function . (laugh) 
+D: (laugh) 
+C: Yeah , okay . But 
+C: (laugh) Yes . 
+B: But we could couldn't uh what what's the selling price ? Fifty ? Uh twenty five . 
+A: Twenty five Euros . 
+B: And costs were twelve fifty . But even now , if only our production costs w _ uh were exceeded the double , 
+A: Yeah . 
+B: Think . Production cost was were t uh was twenty two ? 
+A: Mm-hmm . 
+B: So uh selling price uh would be uh yeah . 
+C: M about fifty Euros . 
+C: That's quite ex well , it's not it's not very expensive for a remote control that that has this functionality . 
+B: That's price , but w w 
+B: No . An original remote control of any T_V_ kind , uh a Phillips remote control , y you pay uh 
+C: Yes , it's more than fifty Euros . It's quite expensive , yes . 
+B: Yeah , I kn I know uh from a few years ago , it it it costed hundred Gilders . 
+A: Bu but well yeah , I know , but you're paying for th for the brand , because there are uh remote controls which control your stereo , television , D_V_D_ , C_D_ player , for under twenty five Euros . 
+C: Yes . Yes , but you can you c 
+C: Yes , but you can learn this thing , all these functions . And it's easier to use because those uh remote controls don't offer voice recognition and this one does . So I think it's worth its price . 
+A: Yeah . 
+A: . 
+A: Yeah . 
+A: Okay . Um you had an overall rating . Um 
+D: Yeah , but uh (laugh) with these ratings uh 
+A: That's counting . 
+C: Well , it's it's about one point five . Something like that . 
+D: should be about one point s seven , yeah . 
+B: Four six seven eight . 
+A: Okay . 
+B: Nine divided by six . 
+**********
+D: (laugh) 
+C: _ 
+D: _ 
+A: (laugh) Try to translate that . (laugh) 
+C: Well (laugh) 
+D: (laugh) 
+B: (laugh) 
+B: Hmm . (laugh) 
+A: Any any other Uh , Roo ? 
+C: Well , I think 
+B: Yeah , I think uh 
+D: Ye 
+A: (laugh) Roo . (laugh) 
+C: (laugh) 
+B: (laugh) The process was good . 
+B: But w um we weren't aware of the prices of the costs . And and that was the the big deal . I if we knew that before , we c we could have made the the choice between what yeah . 
+A: Yeah . 
+C: Mm . 
+C: Actually , we had 
+A: Better decision . 
+C: Yes . We had we had too little information actually . So And uh um the the the well , looking at room for creativity , there was 
+A: Yeah . 
+C: w way too the the choice of components was way too narrow . So there was not really a process of uh 
+A: Less . 
+A: Yeah . 
+A: So we could we we could be we could've been creative . But um it was tempered by the choice of components and the the price . 
+C: Well 
+C: Yes . 
+D: The prices . 
+C: Well , in the first meeting we we already were very creative . We we thought of possibilities _ who are not possible uh with the the current uh offer of uh manufacturing components . So 
+A: Yeah . 
+A: Yeah . 
+C: We're tempered by that , yes . 
+A: Okay , Roo ? 
+A: Any other thoughts on that ? 
+B: No , no . 
+A: Ruud ? 
+D: I agree . 
+A: You agree , okay . Uh leadership . (laugh) Okay , Roo's on for his promotion . (laugh) 
+B: Fantastic . (laugh) 
+C: (laugh) 
+D: (laugh) 
+B: (laugh) 
+D: (laugh) 
+B: (laugh) 
+C: Yeah , okay . 
+A: Okay . 
+C: I think we're a good team . 
+A: I think so too , it's it's it's uh of course a laboratory environment . I missed it um to be able to contact you in between and uh say uh , hey Roo uh . (laugh) Um 
+C: Yes . 
+B: Yeah . 
+D: _ 
+C: (laugh) 
+B: (laugh) 
+C: Well , I tried once , but that was not allowed . (laugh) 
+B: (laugh) 
+A: Yeah . (laugh) So um 
+D: (laugh) 
+A: Yeah , but but si uh w w w when taken in account the the situation , uh I think we performed pretty well . 
+C: I think so too . 
+B: Yeah . 
+A: Yeah . Um the means , the SMARTboard , the digital pen . Did you like 'em ? 
+C: _ Uh . The digital pen was okay , but SMARTboard was really bad . It it's 
+B: Yeah . 
+A: Because of the response or 
+C: The response is very slow and the possibilities are very limited . It's not accurate . 
+B: Response and 
+A: Okay . 
+B: Uh it it has yeah . Yeah , it's not accurate . The p the pointing of the pen is not um the place where it it writes its um uh where it uh 
+A: Uh 
+D: Draws . 
+B: Yeah , where it draws . It's uh the drawing on on the b on the board is r right from the pen . 
+A: Okay , so it it had to be um 
+B: So uh _ 
+B: You to take in account that your you m yeah uh 
+A: better aligned , or what's the word ? Uh yeah . 
+C: Maybe it's it needs to be calibrateds . 
+B: It's too slow 
+A: It it was calibrated just before this meeting . Uh the one before , the third meeting . So uh it's not the calibration , it's the thing itself , I think . Uh Ruud , w uh did you use the pen a lot ? Or not at all ? Not at all . 
+C: It is ? Okay . 
+C: Okay . 
+B: Hmm . 
+D: No . Not really . 
+A: Okay . I thought it was quite a handy uh thing , although I would like to see um O_C_R_ . 
+C: I I think so too . 
+C: Yes . 
+B: Yep . 
+C: Yes . 
+B: If it has O_C_R_ _ , uh I think uh I would use , but uh I I just uh took notes for myself and and and that's it . It w it w yeah . It was necessary for me to uh 
+A: Yeah . 
+A: To digitise them . 
+B: Yeah , because if I want something on the computer , I just type it . I type faster than I write . So 
+A: Yeah . 
+C: Mm-hmm . 
+A: Yeah . 
+C: But I think it's a great solution for uh for uh a known problem , uh writing down some notes , some some inf uh information , and then um forgetting your notebook somewhere and losing all that information . Because you have everything in one place and it's quite easy quite easy it's it's possible to make this information digital and share it with others in a quite easy way . I think it's a good product . I only think it's th the the shape of the pen is too big . It's not quite uh ergonomic . 
+A: Yeah . 
+A: Yeah . 
+A: Yeah . 
+B: Economic . 
+C: Eco ergonomic . 
+A: I know . 
+B: (laugh) 
+A: Yeah . Okay . Um 
+A: What w Uh Ruud , what did you think about the SMARTboards ? 
+D: Oh , I only use it to draw a rabbit , so (laugh) can't say much about it . 
+A: Yeah . Okay , you can't really decide . No . I missed a feature to easily select uh a slide and uh distribute it to the laptops . I think that would be very easy if you could say okay , I want to use this for my own work or my own presentation further on or 
+B: (laugh) 
+C: Yes . 
+D: No , or the other way around . 
+B: Yeah . 
+A: Or the other way around , that you could show but m 
+C: Yes , yes . 
+B: But y you can if you save this image , you can open it in your shared work folder . So it's almost yeah . 
+C: That's quite what PowerPoint does . 
+D: Yeah . 
+A: I know . 
+A: I know , but 
+A: I know , but we couldn't use that feature , so I missed it . 
+B: Yep . 
+A: We weren't able to do that . 
+A: At least the um I wasn't explained how to do such a th 
+B: Mm-hmm . . A and the function of of filling an an uh an oval or an an object . 
+C: An object , yes . Yes . The drawing cap capabilities are very limited . 
+B: I it's not possible yeah . 
+A: Okay . 
+C: And and uh w you were when you're using uh Windows , you're used to a certain interface and certain buttons , uh which you can use for drawing . And a lot of these buttons don't appear here . So it's 
+A: Yeah . 
+B: Oh it looks like paint actually . 
+A: Okay , so y it it's not even as advanced as paint . 
+C: Not not uh n not way . (laugh) It's quite uh limited . 
+A: Yeah . 
+A: Okay . 
+A: Uh no . (laugh) Yeah , the project is evaluated . Um but , well , we need to redesign uh the product . 
+C: (laugh) 
+D: (laugh) 
+**********
+A: Celebrate . 
+C: Pop uh pop up the champagne . (laugh) 
+B: Great . (laugh) 
+B: It was a privilege working with you . (laugh) 
+A: Okay . 
+A: (laugh) Um you're dismissed . (laugh) No , I think we are uh ready . 
+B: (laugh) 
+C: Okay . 
+B: To private rooms ? (laugh) 
+C: I see some action over there . 
+A: Private room , Roo . 
+A: That sounds quite scary . 
+C: (laugh) 
+B: (laugh) 
+C: Okay . 
+A: No , let's find uh the way to 
+A: . (laugh) . 
+C: (laugh) 
+B: (laugh) 
+C: uh we're done , we're finished , I believe . So , 
+C: are there any more cycles in this process ? I think not . 
+A: I don't believe so . Well , maybe we'd 
+A: get an email . 
+A: Thank you for your 
+C: But um how much time did we get for this meeting ? 
+A: Forty minutes . 
+C: And how much time is left ? 
+A: A minute or or ten maybe . 
+A: M Yeah , ten or five . 
+C: Ten minutes . 
+C: Okay . 
+C: Okay . 
+A: So , we can uh 
+A: redesign our uh 
+A: Uh I would like to 
+C: _ Well , I think we we we all know what the redesign should be . A simple , dull , uh one-coloured box . 
+D: And no added value . 
+C: No , it's it's just the same product that is already on the market . 
+D: At all . So 
+A: Oh . Yeah . 
+B: But you see the problem , y you can't continue your uh your line . 
+B: Well , it's fluffy alright . (laugh) Spongy . 
+C: What is that ? 
+B: A giraffe ? (laugh) _ 
+A: Yeah . (laugh) 
+C: It's a giraffe eating a eating leaves from a tree . 
+A: It's blue tongue . 
+D: In interesting design . 
+A: Yeah . (laugh) This is a new model . But (laugh) 
+D: (laugh) 
+C: So you're actually promoting Bluetooth . Or blue tongue . (laugh) 
+A: Blue tongue . (laugh) 
+D: (laugh) Oh uh it it does uh have a natural uh feeling . So 
+B: (laugh) 
+A: (laugh) It's spongy . (laugh) 
+B: (laugh) 
+D: Yeah . (laugh) 
+C: (laugh) 
+A: . (laugh) That is uh it's a new feature next to Bluetooth to um disable all Bluetooth devices . Um 
+B: (laugh) 
+C: (laugh) 
+C: Blue tongue . 
+D: (laugh) 
+C: Okay . 
+B: (laugh) Right . 
+C: Let's wrap it up . 
+A: Yeah , we're done here . 
+C: _ 
+B: _ 
+A: Gentlemen , thank you for your cooperation . 
+C: Thank you Mister manager . (laugh) Now , _ let's have uh a bottle of champagne . 
+A: (laugh) 
+D: (laugh) 
+B: (laugh) . Leave it here . 
+A: Yes . 
+B: That's alright . (laugh) 
+C: . 
+D: . 
+A: 
+**********

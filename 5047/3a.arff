@@ -1,0 +1,42 @@
+@relation 3b
+
+@attribute a {True,False}
+@attribute b {True,False}
+@attribute c {True,False}
+@attribute d {True,False}
+@attribute e {True,False}
+@attribute y {True,False}
+
+@data
+True,False,False,False,False,True
+True,False,True,False,False,False
+True,False,False,True,False,False
+True,False,True,True,False,True
+True,False,False,False,True,False
+True,False,True,False,True,True
+True,False,False,True,True,True
+True,False,True,True,True,False
+False,True,False,False,False,True
+False,True,True,False,False,False
+False,True,False,True,False,False
+False,True,True,True,False,True
+False,True,False,False,True,False
+False,True,True,False,True,True
+False,True,False,True,True,True
+False,True,True,True,True,False
+False,False,False,False,False,False
+False,False,True,False,False,True
+False,False,False,True,False,True
+False,False,True,True,False,False
+False,False,False,False,True,True
+False,False,True,False,True,False
+False,False,False,True,True,False
+False,False,True,True,True,True
+True,True,False,False,False,False
+True,True,True,False,False,True
+True,True,False,True,False,True
+True,True,True,True,False,False
+True,True,False,False,True,True
+True,True,True,False,True,False
+True,True,False,True,True,False
+True,True,True,True,True,True

@@ -1,0 +1,73 @@
+---
+title: "ass3_wk4"
+author: "Chuangfu Xie, 27771539"
+output: html_document
+---
+## M1
+### (a) 
+```{r}
+print('Binomial distribution with n=500, theta=0.001')
+for (i in c(0:9)){
+  cat('When k=',i,', the exact value p(X=k)=',dbinom(i,500,0.001),'\n')
+}
+cat('p(X<10)=',pbinom(9,500,0.001))
+```
+
+### (b) Using Gaussian as approximation
+According to central limit theorem, binomial PMF converging to the normal density as n become larger.  
+Hence, we can use Gaussian to yields the approximation:
+$$E(X_{i})=p, Var(X_{i})=p(1-p)$$
+$$X\sim B(n,p)\xrightarrow []{approximate} X\sim N(np,p(1-p))$$
+let:
+$$ Z=\frac {X-np}{\sqrt{np(1-p)}}\sim N(0,1)$$
+Then:
+$$Z=\frac {10-500\times 0.001}{\sqrt{500\times 0.001(1-0.001)}}=\frac {9.5}{\sqrt{0.4995}}=8.793$$
+$$P(X<10)\approx \Phi (8.793)=1$$
+```{r}
+m=500*0.001
+s=0.001*(1-0.001)
+z=(10-m)/(sqrt(500*s))
+cat("mean=n*p=",m,', variance=p(1-p)=',s,'\n')
+cat("p(X<10)=",pnorm(10,m,s),"\n")
+cat("p(Z)=",pnorm(z))
+```
+
+### (c) Use Poisson as approximation
+Using Poisson approximation can yield s a good aprroximation when n is large and p is small:
+$$P(X=i)={C}_{n}^{i} p^{i}(1-p)^{n-i} \approx e^{-\lambda}\frac{\lambda^{i}}{i!}$$
+```{r}
+lambda=500*0.001
+result=0
+for (i in c(0:9)){
+  cat('When i=',i,', p(X=k)=',dpois(i,lambda),'\n')
+  result= result + dpois(i,lambda)
+}
+cat('P(x<10)=',result)
+```
+
+### (d)
+$$p=0.001,1-p=0.999$$
+$$P(X=i)={C}_{n}^{i} p^{i}(1-p)^{n-i}$$
+$$P(X=0)={C}_{500}^{0}p^{0}(1-p)^{500}\approx1\times 0.606=0.606$$
+$$P(X=1)={C}_{500}^{1}p^{1}(1-p)^{499}=500\times6.069\times10^{-4}=0.303$$
+$$P(X=2)={C}_{500}^{2}p^{2}(1-p)^{498}\approx1.248\times6.076\times10^{-2}=0.076$$
+$$P(X=3)={C}_{500}^{3}p^{3}(1-p)^{497}\approx2.071\times6.082\times10^{-3}=0.0126$$
+$$P(X=4)={C}_{500}^{4}p^{4}(1-p)^{496}\approx2.573\times6.088\times10^{-4}=1.566\times10^{-3}$$
+$$P(X=5)={C}_{500}^{5}p^{5}(1-p)^{495}\approx2.552\times6.094\times10^{-5}=1.555\times10^{-4}$$
+$$P(X=6)={C}_{500}^{6}p^{6}(1-p)^{494}\approx2.106\times6.100\times10^{-6}=1.285\times10^{-5}$$
+$$P(X=7)={C}_{500}^{7}p^{7}(1-p)^{493}\approx1.486\times6.106\times10^{-7}=9.074\times10^{-7}$$
+$$P(X=8)={C}_{500}^{8}p^{8}(1-p)^{492}\approx9.158\times6.113\times10^{-9}=5.598\times10^{-8}$$
+$$P(X=9)={C}_{500}^{9}p^{9}(1-p)^{491}\approx5.006\times\times6.119\times10^{-10}= 3.063\times 10^{-9}$$
+$$P(X<10)=\sum_{i=1}^{9}P(X=i)\approx1$$
+
+
+## M2
+$$IQ\sim N(100,15^{2})$$
+Let's normalise it, say $Z_{IQ}\sim N(0,1)$, then:
+$$P(Z_{IQ}>x)= P(\frac{IQ-100}{15}>\frac{x-100}{15})$$
+### (1) Probability that 2 or more out of 40 would have IQs greater than 150
+$$P(Z_{IQ}\le150)= P(\frac{IQ-100}{15}\le\frac{150-100}{15})=P(Z_{IQ}\le\frac{10}{3})=\Phi(\frac{10}{3})=0.99957$$
+$$P(Z_{IQ}\gt150)=1-P(Z_{IQ}\le150)=0.043\%$$
+### (2) Probability that 2 or more out of 40 would have IQs greater than 140
+$$P(Z_{IQ}\le140)= P(\frac{IQ-100}{15}\le\frac{140-100}{15})=P(Z_{IQ}\le\frac{8}{3})=\Phi(\frac{8}{3})=0.99617$$
+$$P(Z_{IQ}\gt140)=1-P(Z_{IQ}\le140)=0.383\%$$

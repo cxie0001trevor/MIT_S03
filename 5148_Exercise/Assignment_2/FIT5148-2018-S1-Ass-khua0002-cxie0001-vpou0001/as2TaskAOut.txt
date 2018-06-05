@@ -1,0 +1,7746 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 3.6.3
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+FIT5148 Assignment 2 - Part A
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+switched to db fit5148_db
+Collections created.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.1
+Data imported to collections.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.2
+{
+	"_id" : ObjectId("5b027747e49a3ea0854fa5b8"),
+	"Station" : 948702,
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"WindSpeed  (knots)" : 7.1,
+	"Max Wind Speed" : 14,
+	"MAX" : "74.5*",
+	"MIN" : 53.1,
+	"Precipitation" : "0.00I"
+}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.3
+{ "Latitude" : -37.379, "Longitude" : 148.126, "Confidence" : 58 }
+{ "Latitude" : -37.562, "Longitude" : 148.05, "Confidence" : 61 }
+{ "Latitude" : -37.379, "Longitude" : 148.132, "Confidence" : 62 }
+{ "Latitude" : -37.45, "Longitude" : 148.126, "Confidence" : 64 }
+{ "Latitude" : -36.6281, "Longitude" : 142.4349, "Confidence" : 64 }
+{ "Latitude" : -37.3493, "Longitude" : 149.3691, "Confidence" : 66 }
+{ "Latitude" : -36.6299, "Longitude" : 142.4234, "Confidence" : 66 }
+{ "Latitude" : -37.34, "Longitude" : 149.3668, "Confidence" : 67 }
+{ "Latitude" : -37.452, "Longitude" : 148.115, "Confidence" : 68 }
+{ "Latitude" : -36.9303, "Longitude" : 143.1034, "Confidence" : 70 }
+{ "Latitude" : -37.522, "Longitude" : 143.3874, "Confidence" : 71 }
+{ "Latitude" : -37.444, "Longitude" : 148.101, "Confidence" : 73 }
+{ "Latitude" : -36.7499, "Longitude" : 141.3006, "Confidence" : 75 }
+{ "Latitude" : -37.7966, "Longitude" : 142.3196, "Confidence" : 76 }
+{ "Latitude" : -36.7101, "Longitude" : 142.981, "Confidence" : 77 }
+{ "Latitude" : -37.8062, "Longitude" : 143.3598, "Confidence" : 77 }
+{ "Latitude" : -37.966, "Longitude" : 145.051, "Confidence" : 78 }
+{ "Latitude" : -35.9326, "Longitude" : 141.958, "Confidence" : 78 }
+{ "Latitude" : -36.883, "Longitude" : 142.1637, "Confidence" : 79 }
+{ "Latitude" : -36.1559, "Longitude" : 141.8102, "Confidence" : 80 }
+{ "Latitude" : -37.0055, "Longitude" : 148.1582, "Confidence" : 80 }
+{ "Latitude" : -36.0844, "Longitude" : 141.4934, "Confidence" : 81 }
+{ "Latitude" : -37.8973, "Longitude" : 143.4754, "Confidence" : 82 }
+{ "Latitude" : -36.3195, "Longitude" : 146.0601, "Confidence" : 83 }
+{ "Latitude" : -37.803, "Longitude" : 142.3151, "Confidence" : 83 }
+{ "Latitude" : -37.3656, "Longitude" : 141.3903, "Confidence" : 84 }
+{ "Latitude" : -37.8323, "Longitude" : 147.2232, "Confidence" : 84 }
+{ "Latitude" : -38.0423, "Longitude" : 146.4048, "Confidence" : 84 }
+{ "Latitude" : -36.7432, "Longitude" : 141.3296, "Confidence" : 84 }
+{ "Latitude" : -36.7531, "Longitude" : 141.3253, "Confidence" : 84 }
+{ "Latitude" : -37.7587, "Longitude" : 142.8521, "Confidence" : 84 }
+{ "Latitude" : -37.5816, "Longitude" : 148.5862, "Confidence" : 84 }
+{ "Latitude" : -37.0193, "Longitude" : 148.1459, "Confidence" : 84 }
+{ "Latitude" : -36.5023, "Longitude" : 143.6038, "Confidence" : 85 }
+{ "Latitude" : -36.111, "Longitude" : 145.124, "Confidence" : 85 }
+{ "Latitude" : -35.4533, "Longitude" : 143.2029, "Confidence" : 85 }
+{ "Latitude" : -37.4128, "Longitude" : 147.0242, "Confidence" : 85 }
+{ "Latitude" : -35.543, "Longitude" : 143.316, "Confidence" : 86 }
+{ "Latitude" : -37.436, "Longitude" : 148.088, "Confidence" : 86 }
+{ "Latitude" : -37.6775, "Longitude" : 148.5131, "Confidence" : 86 }
+{ "Latitude" : -37.5814, "Longitude" : 148.5777, "Confidence" : 86 }
+{ "Latitude" : -36.6986, "Longitude" : 142.7259, "Confidence" : 86 }
+{ "Latitude" : -37.862, "Longitude" : 144.175, "Confidence" : 87 }
+{ "Latitude" : -38.0148, "Longitude" : 146.5413, "Confidence" : 87 }
+{ "Latitude" : -36.3332, "Longitude" : 145.8594, "Confidence" : 87 }
+{ "Latitude" : -37.9091, "Longitude" : 143.5105, "Confidence" : 87 }
+{ "Latitude" : -37.6387, "Longitude" : 142.9032, "Confidence" : 87 }
+{ "Latitude" : -36.0973, "Longitude" : 143.4279, "Confidence" : 87 }
+{ "Latitude" : -37.3735, "Longitude" : 145.886, "Confidence" : 87 }
+{ "Latitude" : -37.7974, "Longitude" : 145.9535, "Confidence" : 87 }
+{ "Latitude" : -37.46, "Longitude" : 148.102, "Confidence" : 88 }
+{ "Latitude" : -38.0132, "Longitude" : 146.5269, "Confidence" : 88 }
+{ "Latitude" : -36.1546, "Longitude" : 141.8146, "Confidence" : 88 }
+{ "Latitude" : -37.7746, "Longitude" : 148.3673, "Confidence" : 88 }
+{ "Latitude" : -36.94, "Longitude" : 143.281, "Confidence" : 89 }
+{ "Latitude" : -38.3998, "Longitude" : 147.064, "Confidence" : 89 }
+{ "Latitude" : -38.4792, "Longitude" : 146.3081, "Confidence" : 89 }
+{ "Latitude" : -36.5661, "Longitude" : 142.2956, "Confidence" : 89 }
+{ "Latitude" : -35.4666, "Longitude" : 142.0749, "Confidence" : 89 }
+{ "Latitude" : -36.7218, "Longitude" : 141.6411, "Confidence" : 89 }
+{ "Latitude" : -36.5116, "Longitude" : 144.562, "Confidence" : 89 }
+{ "Latitude" : -36.4143, "Longitude" : 143.272, "Confidence" : 89 }
+{ "Latitude" : -37.876, "Longitude" : 143.7804, "Confidence" : 89 }
+{ "Latitude" : -36.2618, "Longitude" : 141.8783, "Confidence" : 89 }
+{ "Latitude" : -37.4843, "Longitude" : 143.0592, "Confidence" : 89 }
+{ "Latitude" : -37.0959, "Longitude" : 143.8206, "Confidence" : 89 }
+{ "Latitude" : -34.9023, "Longitude" : 142.0557, "Confidence" : 89 }
+{ "Latitude" : -37.2609, "Longitude" : 141.7999, "Confidence" : 89 }
+{ "Latitude" : -36.73, "Longitude" : 143.935, "Confidence" : 89 }
+{ "Latitude" : -36.0295, "Longitude" : 143.6409, "Confidence" : 89 }
+{ "Latitude" : -35.8071, "Longitude" : 142.7318, "Confidence" : 89 }
+{ "Latitude" : -38.1561, "Longitude" : 143.7846, "Confidence" : 89 }
+{ "Latitude" : -35.7642, "Longitude" : 143.3321, "Confidence" : 89 }
+{ "Latitude" : -36.1441, "Longitude" : 145.2221, "Confidence" : 89 }
+{ "Latitude" : -37.88, "Longitude" : 143.7233, "Confidence" : 89 }
+{ "Latitude" : -36.9902, "Longitude" : 141.879, "Confidence" : 89 }
+{ "Latitude" : -37.745, "Longitude" : 142.993, "Confidence" : 89 }
+{ "Latitude" : -34.3943, "Longitude" : 141.7567, "Confidence" : 89 }
+{ "Latitude" : -37.4471, "Longitude" : 147.6331, "Confidence" : 89 }
+{ "Latitude" : -37.4449, "Longitude" : 147.6594, "Confidence" : 89 }
+{ "Latitude" : -35.4255, "Longitude" : 143.6306, "Confidence" : 89 }
+{ "Latitude" : -37.7446, "Longitude" : 143.4085, "Confidence" : 89 }
+{ "Latitude" : -36.1556, "Longitude" : 141.5904, "Confidence" : 89 }
+{ "Latitude" : -35.7647, "Longitude" : 142.0858, "Confidence" : 89 }
+{ "Latitude" : -34.3654, "Longitude" : 141.543, "Confidence" : 89 }
+{ "Latitude" : -37.624, "Longitude" : 149.314, "Confidence" : 90 }
+{ "Latitude" : -37.331, "Longitude" : 143.122, "Confidence" : 90 }
+{ "Latitude" : -36.4325, "Longitude" : 144.3142, "Confidence" : 90 }
+{ "Latitude" : -36.7032, "Longitude" : 144.0992, "Confidence" : 90 }
+{ "Latitude" : -36.8616, "Longitude" : 142.8025, "Confidence" : 90 }
+{ "Latitude" : -38.0372, "Longitude" : 146.0616, "Confidence" : 90 }
+{ "Latitude" : -35.6871, "Longitude" : 143.5235, "Confidence" : 90 }
+{ "Latitude" : -36.2911, "Longitude" : 141.1664, "Confidence" : 90 }
+{ "Latitude" : -36.3435, "Longitude" : 141.5513, "Confidence" : 90 }
+{ "Latitude" : -36.094, "Longitude" : 145.7646, "Confidence" : 90 }
+{ "Latitude" : -36.1303, "Longitude" : 146.3606, "Confidence" : 90 }
+{ "Latitude" : -37.6267, "Longitude" : 142.9993, "Confidence" : 90 }
+{ "Latitude" : -36.6828, "Longitude" : 144.784, "Confidence" : 90 }
+{ "Latitude" : -36.7101, "Longitude" : 142.3865, "Confidence" : 90 }
+{ "Latitude" : -37.7756, "Longitude" : 143.1388, "Confidence" : 90 }
+{ "Latitude" : -37.1349, "Longitude" : 141.9491, "Confidence" : 90 }
+{ "Latitude" : -35.1949, "Longitude" : 141.0622, "Confidence" : 90 }
+{ "Latitude" : -37.8185, "Longitude" : 142.5609, "Confidence" : 90 }
+{ "Latitude" : -36.429, "Longitude" : 141.5759, "Confidence" : 90 }
+{ "Latitude" : -36.1462, "Longitude" : 145.2096, "Confidence" : 90 }
+{ "Latitude" : -36.8867, "Longitude" : 142.1873, "Confidence" : 90 }
+{ "Latitude" : -36.8835, "Longitude" : 142.2098, "Confidence" : 90 }
+{ "Latitude" : -36.5399, "Longitude" : 144.678, "Confidence" : 90 }
+{ "Latitude" : -36.7903, "Longitude" : 141.618, "Confidence" : 90 }
+{ "Latitude" : -36.782, "Longitude" : 141.8851, "Confidence" : 90 }
+{ "Latitude" : -36.5568, "Longitude" : 144.0538, "Confidence" : 90 }
+{ "Latitude" : -36.2857, "Longitude" : 141.3467, "Confidence" : 90 }
+{ "Latitude" : -36.5532, "Longitude" : 142.5349, "Confidence" : 90 }
+{ "Latitude" : -36.7165, "Longitude" : 142.6155, "Confidence" : 90 }
+{ "Latitude" : -36.1104, "Longitude" : 145.9829, "Confidence" : 90 }
+{ "Latitude" : -37.5788, "Longitude" : 148.592, "Confidence" : 90 }
+{ "Latitude" : -36.6384, "Longitude" : 142.4075, "Confidence" : 90 }
+{ "Latitude" : -36.0387, "Longitude" : 145.6787, "Confidence" : 90 }
+{ "Latitude" : -37.7835, "Longitude" : 148.4138, "Confidence" : 90 }
+{ "Latitude" : -35.4033, "Longitude" : 143.267, "Confidence" : 90 }
+{ "Latitude" : -36.1615, "Longitude" : 141.8728, "Confidence" : 90 }
+{ "Latitude" : -36.1122, "Longitude" : 142.1491, "Confidence" : 90 }
+{ "Latitude" : -35.7657, "Longitude" : 142.0906, "Confidence" : 90 }
+{ "Latitude" : -37.4523, "Longitude" : 147.0175, "Confidence" : 90 }
+{ "Latitude" : -34.357, "Longitude" : 141.5361, "Confidence" : 90 }
+{ "Latitude" : -36.9939, "Longitude" : 148.2244, "Confidence" : 90 }
+{ "Latitude" : -37.247, "Longitude" : 141.278, "Confidence" : 91 }
+{ "Latitude" : -37.8644, "Longitude" : 143.4263, "Confidence" : 91 }
+{ "Latitude" : -36.3774, "Longitude" : 143.7079, "Confidence" : 91 }
+{ "Latitude" : -36.7685, "Longitude" : 142.7134, "Confidence" : 91 }
+{ "Latitude" : -36.7801, "Longitude" : 142.7151, "Confidence" : 91 }
+{ "Latitude" : -36.7746, "Longitude" : 146.6642, "Confidence" : 91 }
+{ "Latitude" : -36.5541, "Longitude" : 144.1321, "Confidence" : 91 }
+{ "Latitude" : -35.6819, "Longitude" : 143.5275, "Confidence" : 91 }
+{ "Latitude" : -36.3153, "Longitude" : 140.9789, "Confidence" : 91 }
+{ "Latitude" : -36.4168, "Longitude" : 141.6939, "Confidence" : 91 }
+{ "Latitude" : -35.6138, "Longitude" : 143.8666, "Confidence" : 91 }
+{ "Latitude" : -36.5061, "Longitude" : 144.5675, "Confidence" : 91 }
+{ "Latitude" : -36.3635, "Longitude" : 142.2809, "Confidence" : 91 }
+{ "Latitude" : -36.6564, "Longitude" : 142.8615, "Confidence" : 91 }
+{ "Latitude" : -36.7751, "Longitude" : 145.1696, "Confidence" : 91 }
+{ "Latitude" : -36.3961, "Longitude" : 140.9781, "Confidence" : 91 }
+{ "Latitude" : -37.6397, "Longitude" : 142.5968, "Confidence" : 91 }
+{ "Latitude" : -37.6964, "Longitude" : 142.8583, "Confidence" : 91 }
+{ "Latitude" : -37.7171, "Longitude" : 142.9505, "Confidence" : 91 }
+{ "Latitude" : -36.2637, "Longitude" : 145.3649, "Confidence" : 91 }
+{ "Latitude" : -37.0782, "Longitude" : 145.3625, "Confidence" : 91 }
+{ "Latitude" : -36.7651, "Longitude" : 143.5801, "Confidence" : 91 }
+{ "Latitude" : -36.6892, "Longitude" : 145.2775, "Confidence" : 91 }
+{ "Latitude" : -36.1748, "Longitude" : 145.7582, "Confidence" : 91 }
+{ "Latitude" : -36.3487, "Longitude" : 145.5315, "Confidence" : 91 }
+{ "Latitude" : -36.4612, "Longitude" : 144.7775, "Confidence" : 91 }
+{ "Latitude" : -37.6171, "Longitude" : 142.9426, "Confidence" : 91 }
+{ "Latitude" : -37.4611, "Longitude" : 144.9371, "Confidence" : 91 }
+{ "Latitude" : -35.6453, "Longitude" : 142.387, "Confidence" : 91 }
+{ "Latitude" : -36.4449, "Longitude" : 140.9836, "Confidence" : 91 }
+{ "Latitude" : -35.2363, "Longitude" : 143.0004, "Confidence" : 91 }
+{ "Latitude" : -36.031, "Longitude" : 145.6824, "Confidence" : 91 }
+{ "Latitude" : -37.3803, "Longitude" : 145.611, "Confidence" : 91 }
+{ "Latitude" : -38.0674, "Longitude" : 142.965, "Confidence" : 91 }
+{ "Latitude" : -37.95, "Longitude" : 142.366, "Confidence" : 92 }
+{ "Latitude" : -36.098, "Longitude" : 143.74, "Confidence" : 92 }
+{ "Latitude" : -36.9396, "Longitude" : 143.1462, "Confidence" : 92 }
+{ "Latitude" : -36.3207, "Longitude" : 140.9737, "Confidence" : 92 }
+{ "Latitude" : -37.4463, "Longitude" : 142.7829, "Confidence" : 92 }
+{ "Latitude" : -38.2391, "Longitude" : 142.82, "Confidence" : 92 }
+{ "Latitude" : -37.7889, "Longitude" : 143.1324, "Confidence" : 92 }
+{ "Latitude" : -36.663, "Longitude" : 142.8567, "Confidence" : 92 }
+{ "Latitude" : -36.803, "Longitude" : 142.9261, "Confidence" : 92 }
+{ "Latitude" : -36.882, "Longitude" : 142.7108, "Confidence" : 92 }
+{ "Latitude" : -36.7593, "Longitude" : 142.895, "Confidence" : 92 }
+{ "Latitude" : -37.9284, "Longitude" : 143.108, "Confidence" : 92 }
+{ "Latitude" : -37.6498, "Longitude" : 142.5997, "Confidence" : 92 }
+{ "Latitude" : -36.5828, "Longitude" : 144.5775, "Confidence" : 92 }
+{ "Latitude" : -36.2652, "Longitude" : 145.3769, "Confidence" : 92 }
+{ "Latitude" : -36.1924, "Longitude" : 143.1716, "Confidence" : 92 }
+{ "Latitude" : -36.1346, "Longitude" : 145.2196, "Confidence" : 92 }
+{ "Latitude" : -36.9364, "Longitude" : 143.4996, "Confidence" : 92 }
+{ "Latitude" : -36.0714, "Longitude" : 145.7665, "Confidence" : 92 }
+{ "Latitude" : -36.5586, "Longitude" : 144.0423, "Confidence" : 92 }
+{ "Latitude" : -36.0749, "Longitude" : 143.4058, "Confidence" : 92 }
+{ "Latitude" : -36.1367, "Longitude" : 145.2071, "Confidence" : 92 }
+{ "Latitude" : -37.4033, "Longitude" : 143.6884, "Confidence" : 92 }
+{ "Latitude" : -37.2082, "Longitude" : 147.4368, "Confidence" : 92 }
+{ "Latitude" : -37.2063, "Longitude" : 147.4713, "Confidence" : 92 }
+{ "Latitude" : -36.6334, "Longitude" : 142.2244, "Confidence" : 92 }
+{ "Latitude" : -36.0157, "Longitude" : 145.9414, "Confidence" : 92 }
+{ "Latitude" : -37.8161, "Longitude" : 142.9286, "Confidence" : 92 }
+{ "Latitude" : -36.5989, "Longitude" : 141.9771, "Confidence" : 92 }
+{ "Latitude" : -36.4557, "Longitude" : 142.2434, "Confidence" : 92 }
+{ "Latitude" : -38.0715, "Longitude" : 142.9591, "Confidence" : 92 }
+{ "Latitude" : -37.6625, "Longitude" : 144.287, "Confidence" : 92 }
+{ "Latitude" : -37.875, "Longitude" : 142.51, "Confidence" : 93 }
+{ "Latitude" : -38.057, "Longitude" : 144.211, "Confidence" : 93 }
+{ "Latitude" : -37.945, "Longitude" : 144.354, "Confidence" : 93 }
+{ "Latitude" : -37.4984, "Longitude" : 142.9739, "Confidence" : 93 }
+{ "Latitude" : -37.4671, "Longitude" : 145.9962, "Confidence" : 93 }
+{ "Latitude" : -36.2306, "Longitude" : 143.6408, "Confidence" : 93 }
+{ "Latitude" : -36.6657, "Longitude" : 143.1675, "Confidence" : 93 }
+{ "Latitude" : -37.5135, "Longitude" : 142.7238, "Confidence" : 93 }
+{ "Latitude" : -36.6942, "Longitude" : 143.8021, "Confidence" : 93 }
+{ "Latitude" : -36.4046, "Longitude" : 141.1534, "Confidence" : 93 }
+{ "Latitude" : -36.388, "Longitude" : 141.8309, "Confidence" : 93 }
+{ "Latitude" : -36.9111, "Longitude" : 142.692, "Confidence" : 93 }
+{ "Latitude" : -37.769, "Longitude" : 147.94, "Confidence" : 93 }
+{ "Latitude" : -36.1964, "Longitude" : 144.5217, "Confidence" : 93 }
+{ "Latitude" : -36.5871, "Longitude" : 144.4958, "Confidence" : 93 }
+{ "Latitude" : -38.1693, "Longitude" : 143.0466, "Confidence" : 93 }
+{ "Latitude" : -37.9157, "Longitude" : 143.3544, "Confidence" : 93 }
+{ "Latitude" : -36.8879, "Longitude" : 141.6647, "Confidence" : 93 }
+{ "Latitude" : -36.4899, "Longitude" : 142.2805, "Confidence" : 93 }
+{ "Latitude" : -36.663, "Longitude" : 141.3038, "Confidence" : 93 }
+{ "Latitude" : -36.91, "Longitude" : 141.0704, "Confidence" : 93 }
+{ "Latitude" : -36.8238, "Longitude" : 143.5724, "Confidence" : 93 }
+{ "Latitude" : -36.1941, "Longitude" : 143.1604, "Confidence" : 93 }
+{ "Latitude" : -35.0616, "Longitude" : 141.4417, "Confidence" : 93 }
+{ "Latitude" : -36.5243, "Longitude" : 142.0839, "Confidence" : 93 }
+{ "Latitude" : -36.6823, "Longitude" : 142.5024, "Confidence" : 93 }
+{ "Latitude" : -36.4489, "Longitude" : 144.7685, "Confidence" : 93 }
+{ "Latitude" : -37.5888, "Longitude" : 148.5949, "Confidence" : 93 }
+{ "Latitude" : -37.6439, "Longitude" : 142.913, "Confidence" : 93 }
+{ "Latitude" : -37.3165, "Longitude" : 147.4932, "Confidence" : 93 }
+{ "Latitude" : -37.0769, "Longitude" : 141.042, "Confidence" : 93 }
+{ "Latitude" : -37.7465, "Longitude" : 143.3806, "Confidence" : 93 }
+{ "Latitude" : -37.3046, "Longitude" : 143.5448, "Confidence" : 93 }
+{ "Latitude" : -36.8099, "Longitude" : 142.728, "Confidence" : 93 }
+{ "Latitude" : -34.3539, "Longitude" : 141.5547, "Confidence" : 93 }
+{ "Latitude" : -37.4796, "Longitude" : 141.9403, "Confidence" : 94 }
+{ "Latitude" : -36.2693, "Longitude" : 143.1768, "Confidence" : 94 }
+{ "Latitude" : -38.049, "Longitude" : 146.0513, "Confidence" : 94 }
+{ "Latitude" : -36.2775, "Longitude" : 146.1026, "Confidence" : 94 }
+{ "Latitude" : -36.0828, "Longitude" : 145.873, "Confidence" : 94 }
+{ "Latitude" : -36.4179, "Longitude" : 144.2924, "Confidence" : 94 }
+{ "Latitude" : -37.4357, "Longitude" : 142.7813, "Confidence" : 94 }
+{ "Latitude" : -37.6982, "Longitude" : 143.0549, "Confidence" : 94 }
+{ "Latitude" : -37.7609, "Longitude" : 143.1633, "Confidence" : 94 }
+{ "Latitude" : -36.2121, "Longitude" : 144.6885, "Confidence" : 94 }
+{ "Latitude" : -37.7274, "Longitude" : 142.9536, "Confidence" : 94 }
+{ "Latitude" : -38.1224, "Longitude" : 143.7553, "Confidence" : 94 }
+{ "Latitude" : -38.0792, "Longitude" : 143.7361, "Confidence" : 94 }
+{ "Latitude" : -37.7236, "Longitude" : 142.947, "Confidence" : 94 }
+{ "Latitude" : -36.092, "Longitude" : 141.7306, "Confidence" : 94 }
+{ "Latitude" : -36.3966, "Longitude" : 141.406, "Confidence" : 94 }
+{ "Latitude" : -36.2933, "Longitude" : 141.36, "Confidence" : 94 }
+{ "Latitude" : -36.4816, "Longitude" : 141.6635, "Confidence" : 94 }
+{ "Latitude" : -36.3313, "Longitude" : 141.0017, "Confidence" : 94 }
+{ "Latitude" : -37.5812, "Longitude" : 142.7374, "Confidence" : 94 }
+{ "Latitude" : -35.811, "Longitude" : 142.1403, "Confidence" : 94 }
+{ "Latitude" : -36.6349, "Longitude" : 142.2125, "Confidence" : 94 }
+{ "Latitude" : -38.0052, "Longitude" : 142.6179, "Confidence" : 94 }
+{ "Latitude" : -36.7806, "Longitude" : 141.5597, "Confidence" : 94 }
+{ "Latitude" : -36.7152, "Longitude" : 141.3853, "Confidence" : 94 }
+{ "Latitude" : -34.3555, "Longitude" : 141.5495, "Confidence" : 94 }
+{ "Latitude" : -37.2284, "Longitude" : 147.9187, "Confidence" : 94 }
+{ "Latitude" : -37.613, "Longitude" : 149.305, "Confidence" : 95 }
+{ "Latitude" : -37.618, "Longitude" : 149.281, "Confidence" : 95 }
+{ "Latitude" : -36.0396, "Longitude" : 141.7183, "Confidence" : 95 }
+{ "Latitude" : -36.3254, "Longitude" : 144.3638, "Confidence" : 95 }
+{ "Latitude" : -37.6854, "Longitude" : 143.4543, "Confidence" : 95 }
+{ "Latitude" : -36.0885, "Longitude" : 145.0359, "Confidence" : 95 }
+{ "Latitude" : -36.6139, "Longitude" : 143.501, "Confidence" : 95 }
+{ "Latitude" : -37.9509, "Longitude" : 143.9599, "Confidence" : 95 }
+{ "Latitude" : -36.7187, "Longitude" : 143.805, "Confidence" : 95 }
+{ "Latitude" : -36.6537, "Longitude" : 143.8781, "Confidence" : 95 }
+{ "Latitude" : -38.1987, "Longitude" : 147.0666, "Confidence" : 95 }
+{ "Latitude" : -36.3014, "Longitude" : 143.203, "Confidence" : 95 }
+{ "Latitude" : -36.7128, "Longitude" : 142.3717, "Confidence" : 95 }
+{ "Latitude" : -36.6995, "Longitude" : 142.978, "Confidence" : 95 }
+{ "Latitude" : -36.738, "Longitude" : 142.1177, "Confidence" : 95 }
+{ "Latitude" : -36.5199, "Longitude" : 144.7311, "Confidence" : 95 }
+{ "Latitude" : -36.3823, "Longitude" : 141.3146, "Confidence" : 95 }
+{ "Latitude" : -36.8681, "Longitude" : 143.5186, "Confidence" : 95 }
+{ "Latitude" : -35.0706, "Longitude" : 141.4435, "Confidence" : 95 }
+{ "Latitude" : -37.9152, "Longitude" : 145.8808, "Confidence" : 95 }
+{ "Latitude" : -37.8906, "Longitude" : 146.2035, "Confidence" : 95 }
+{ "Latitude" : -36.1418, "Longitude" : 144.0261, "Confidence" : 95 }
+{ "Latitude" : -37.8247, "Longitude" : 143.6243, "Confidence" : 95 }
+{ "Latitude" : -37.4028, "Longitude" : 143.6932, "Confidence" : 95 }
+{ "Latitude" : -37.224, "Longitude" : 147.4347, "Confidence" : 95 }
+{ "Latitude" : -37.3158, "Longitude" : 147.4986, "Confidence" : 95 }
+{ "Latitude" : -37.4323, "Longitude" : 147.6583, "Confidence" : 95 }
+{ "Latitude" : -37.8072, "Longitude" : 145.9738, "Confidence" : 95 }
+{ "Latitude" : -36.4312, "Longitude" : 141.2064, "Confidence" : 95 }
+{ "Latitude" : -36.8009, "Longitude" : 142.7259, "Confidence" : 95 }
+{ "Latitude" : -37.7805, "Longitude" : 143.5003, "Confidence" : 95 }
+{ "Latitude" : -37.8774, "Longitude" : 145.8213, "Confidence" : 95 }
+{ "Latitude" : -36.9959, "Longitude" : 148.2118, "Confidence" : 95 }
+{ "Latitude" : -37.475, "Longitude" : 143.365, "Confidence" : 96 }
+{ "Latitude" : -38.127, "Longitude" : 143.82, "Confidence" : 96 }
+{ "Latitude" : -36.1002, "Longitude" : 142.3405, "Confidence" : 96 }
+{ "Latitude" : -36.8359, "Longitude" : 146.6448, "Confidence" : 96 }
+{ "Latitude" : -37.253, "Longitude" : 144.3681, "Confidence" : 96 }
+{ "Latitude" : -36.3387, "Longitude" : 141.7542, "Confidence" : 96 }
+{ "Latitude" : -36.3402, "Longitude" : 141.7429, "Confidence" : 96 }
+{ "Latitude" : -36.2842, "Longitude" : 141.1741, "Confidence" : 96 }
+{ "Latitude" : -36.8094, "Longitude" : 142.8885, "Confidence" : 96 }
+{ "Latitude" : -38.0866, "Longitude" : 143.9534, "Confidence" : 96 }
+{ "Latitude" : -36.3438, "Longitude" : 141.5832, "Confidence" : 96 }
+{ "Latitude" : -36.3193, "Longitude" : 145.9162, "Confidence" : 96 }
+{ "Latitude" : -38.0933, "Longitude" : 143.9824, "Confidence" : 96 }
+{ "Latitude" : -37.8429, "Longitude" : 147.2691, "Confidence" : 96 }
+{ "Latitude" : -36.0594, "Longitude" : 141.5907, "Confidence" : 96 }
+{ "Latitude" : -36.5847, "Longitude" : 145.1968, "Confidence" : 96 }
+{ "Latitude" : -36.6787, "Longitude" : 144.8042, "Confidence" : 96 }
+{ "Latitude" : -37.7935, "Longitude" : 143.1606, "Confidence" : 96 }
+{ "Latitude" : -36.5987, "Longitude" : 144.4995, "Confidence" : 96 }
+{ "Latitude" : -36.1898, "Longitude" : 145.0922, "Confidence" : 96 }
+{ "Latitude" : -36.8298, "Longitude" : 143.4483, "Confidence" : 96 }
+{ "Latitude" : -36.9498, "Longitude" : 142.2012, "Confidence" : 96 }
+{ "Latitude" : -36.1518, "Longitude" : 144.0233, "Confidence" : 96 }
+{ "Latitude" : -37.222, "Longitude" : 147.4689, "Confidence" : 96 }
+{ "Latitude" : -37.7542, "Longitude" : 142.9949, "Confidence" : 96 }
+{ "Latitude" : -36.1955, "Longitude" : 145.914, "Confidence" : 96 }
+{ "Latitude" : -36.6006, "Longitude" : 141.9657, "Confidence" : 96 }
+{ "Latitude" : -37.3704, "Longitude" : 145.8942, "Confidence" : 96 }
+{ "Latitude" : -37.6622, "Longitude" : 142.1001, "Confidence" : 96 }
+{ "Latitude" : -34.3554, "Longitude" : 141.5413, "Confidence" : 96 }
+{ "Latitude" : -37.61, "Longitude" : 149.307, "Confidence" : 97 }
+{ "Latitude" : -37.69, "Longitude" : 143.605, "Confidence" : 97 }
+{ "Latitude" : -36.369, "Longitude" : 143.7132, "Confidence" : 97 }
+{ "Latitude" : -36.4169, "Longitude" : 144.2994, "Confidence" : 97 }
+{ "Latitude" : -36.4211, "Longitude" : 141.6875, "Confidence" : 97 }
+{ "Latitude" : -36.6224, "Longitude" : 143.5092, "Confidence" : 97 }
+{ "Latitude" : -36.2206, "Longitude" : 144.6856, "Confidence" : 97 }
+{ "Latitude" : -37.4885, "Longitude" : 142.0658, "Confidence" : 97 }
+{ "Latitude" : -36.6527, "Longitude" : 142.7392, "Confidence" : 97 }
+{ "Latitude" : -36.7787, "Longitude" : 141.4449, "Confidence" : 97 }
+{ "Latitude" : -37.0669, "Longitude" : 141.0556, "Confidence" : 97 }
+{ "Latitude" : -36.8158, "Longitude" : 142.6229, "Confidence" : 97 }
+{ "Latitude" : -36.1067, "Longitude" : 143.7948, "Confidence" : 97 }
+{ "Latitude" : -36.4538, "Longitude" : 144.763, "Confidence" : 97 }
+{ "Latitude" : -36.601, "Longitude" : 144.6378, "Confidence" : 97 }
+{ "Latitude" : -37.7617, "Longitude" : 143.081, "Confidence" : 97 }
+{ "Latitude" : -36.1925, "Longitude" : 145.93, "Confidence" : 97 }
+{ "Latitude" : -37.0924, "Longitude" : 141.897, "Confidence" : 97 }
+{ "Latitude" : -37.9452, "Longitude" : 143.5834, "Confidence" : 97 }
+{ "Latitude" : -37.9247, "Longitude" : 142.8999, "Confidence" : 97 }
+{ "Latitude" : -35.0805, "Longitude" : 142.4642, "Confidence" : 97 }
+{ "Latitude" : -37.0155, "Longitude" : 148.1432, "Confidence" : 97 }
+{ "Latitude" : -37.6572, "Longitude" : 142.0703, "Confidence" : 97 }
+{ "Latitude" : -37.605, "Longitude" : 149.302, "Confidence" : 98 }
+{ "Latitude" : -37.9085, "Longitude" : 141.1038, "Confidence" : 98 }
+{ "Latitude" : -38.2375, "Longitude" : 142.8363, "Confidence" : 98 }
+{ "Latitude" : -38.2853, "Longitude" : 145.9519, "Confidence" : 98 }
+{ "Latitude" : -36.0652, "Longitude" : 146.0764, "Confidence" : 98 }
+{ "Latitude" : -36.8742, "Longitude" : 142.7177, "Confidence" : 98 }
+{ "Latitude" : -37.758, "Longitude" : 143.179, "Confidence" : 98 }
+{ "Latitude" : -36.1345, "Longitude" : 146.351, "Confidence" : 98 }
+{ "Latitude" : -38.0509, "Longitude" : 143.9423, "Confidence" : 98 }
+{ "Latitude" : -36.5921, "Longitude" : 144.4905, "Confidence" : 98 }
+{ "Latitude" : -36.5262, "Longitude" : 144.5737, "Confidence" : 98 }
+{ "Latitude" : -36.9329, "Longitude" : 143.7796, "Confidence" : 98 }
+{ "Latitude" : -36.2948, "Longitude" : 141.3486, "Confidence" : 98 }
+{ "Latitude" : -37.618, "Longitude" : 143.0013, "Confidence" : 98 }
+{ "Latitude" : -35.2381, "Longitude" : 142.994, "Confidence" : 98 }
+{ "Latitude" : -36.095, "Longitude" : 141.7699, "Confidence" : 98 }
+{ "Latitude" : -37.7509, "Longitude" : 143.4023, "Confidence" : 98 }
+{ "Latitude" : -34.3526, "Longitude" : 141.6458, "Confidence" : 98 }
+{ "Latitude" : -37.4261, "Longitude" : 147.0323, "Confidence" : 98 }
+{ "Latitude" : -37.6, "Longitude" : 149.325, "Confidence" : 99 }
+{ "Latitude" : -37.609, "Longitude" : 149.32, "Confidence" : 99 }
+{ "Latitude" : -37.293, "Longitude" : 141.245, "Confidence" : 99 }
+{ "Latitude" : -36.2882, "Longitude" : 141.1821, "Confidence" : 99 }
+{ "Latitude" : -38.0881, "Longitude" : 143.9391, "Confidence" : 99 }
+{ "Latitude" : -37.5867, "Longitude" : 143.6256, "Confidence" : 99 }
+{ "Latitude" : -36.4286, "Longitude" : 141.1567, "Confidence" : 99 }
+{ "Latitude" : -36.7153, "Longitude" : 143.8226, "Confidence" : 99 }
+{ "Latitude" : -36.5438, "Longitude" : 144.7548, "Confidence" : 99 }
+{ "Latitude" : -37.5115, "Longitude" : 143.14, "Confidence" : 99 }
+{ "Latitude" : -36.1586, "Longitude" : 145.6666, "Confidence" : 99 }
+{ "Latitude" : -35.8276, "Longitude" : 143.7549, "Confidence" : 99 }
+{ "Latitude" : -36.7943, "Longitude" : 143.9571, "Confidence" : 99 }
+{ "Latitude" : -36.0691, "Longitude" : 145.7797, "Confidence" : 99 }
+{ "Latitude" : -37.8885, "Longitude" : 143.9157, "Confidence" : 99 }
+{ "Latitude" : -36.7287, "Longitude" : 142.6017, "Confidence" : 99 }
+{ "Latitude" : -37.777, "Longitude" : 148.4128, "Confidence" : 99 }
+{ "Latitude" : -37.7236, "Longitude" : 143.3995, "Confidence" : 99 }
+{ "Latitude" : -34.351, "Longitude" : 141.6567, "Confidence" : 99 }
+{ "Latitude" : -36.282, "Longitude" : 146.157, "Confidence" : 100 }
+{ "Latitude" : -37.642, "Longitude" : 149.263, "Confidence" : 100 }
+{ "Latitude" : -37.634, "Longitude" : 149.237, "Confidence" : 100 }
+{ "Latitude" : -37.606, "Longitude" : 149.312, "Confidence" : 100 }
+{ "Latitude" : -37.477, "Longitude" : 143.352, "Confidence" : 100 }
+{ "Latitude" : -37.294, "Longitude" : 141.232, "Confidence" : 100 }
+{ "Latitude" : -37.462, "Longitude" : 148.089, "Confidence" : 100 }
+{ "Latitude" : -37.446, "Longitude" : 148.102, "Confidence" : 100 }
+{ "Latitude" : -37.406, "Longitude" : 148.123, "Confidence" : 100 }
+{ "Latitude" : -37.396, "Longitude" : 148.086, "Confidence" : 100 }
+{ "Latitude" : -37.399, "Longitude" : 148.081, "Confidence" : 100 }
+{ "Latitude" : -37.401, "Longitude" : 148.067, "Confidence" : 100 }
+{ "Latitude" : -36.3756, "Longitude" : 143.7243, "Confidence" : 100 }
+{ "Latitude" : -36.3799, "Longitude" : 143.7149, "Confidence" : 100 }
+{ "Latitude" : -38.4349, "Longitude" : 146.3122, "Confidence" : 100 }
+{ "Latitude" : -37.9047, "Longitude" : 141.0945, "Confidence" : 100 }
+{ "Latitude" : -36.3433, "Longitude" : 143.4369, "Confidence" : 100 }
+{ "Latitude" : -36.345, "Longitude" : 143.4256, "Confidence" : 100 }
+{ "Latitude" : -38.0361, "Longitude" : 146.0567, "Confidence" : 100 }
+{ "Latitude" : -36.0816, "Longitude" : 145.859, "Confidence" : 100 }
+{ "Latitude" : -36.1532, "Longitude" : 143.5527, "Confidence" : 100 }
+{ "Latitude" : -36.0077, "Longitude" : 141.7747, "Confidence" : 100 }
+{ "Latitude" : -36.1506, "Longitude" : 143.5671, "Confidence" : 100 }
+{ "Latitude" : -38.5123, "Longitude" : 146.4007, "Confidence" : 100 }
+{ "Latitude" : -36.0682, "Longitude" : 146.0602, "Confidence" : 100 }
+{ "Latitude" : -36.7742, "Longitude" : 145.1991, "Confidence" : 100 }
+{ "Latitude" : -36.4035, "Longitude" : 140.9935, "Confidence" : 100 }
+{ "Latitude" : -36.664, "Longitude" : 142.8802, "Confidence" : 100 }
+{ "Latitude" : -36.7708, "Longitude" : 145.1908, "Confidence" : 100 }
+{ "Latitude" : -36.8791, "Longitude" : 142.7261, "Confidence" : 100 }
+{ "Latitude" : -36.7309, "Longitude" : 142.3633, "Confidence" : 100 }
+{ "Latitude" : -37.8412, "Longitude" : 147.2536, "Confidence" : 100 }
+{ "Latitude" : -36.5454, "Longitude" : 144.7402, "Confidence" : 100 }
+{ "Latitude" : -36.3459, "Longitude" : 141.5586, "Confidence" : 100 }
+{ "Latitude" : -36.0576, "Longitude" : 141.6122, "Confidence" : 100 }
+{ "Latitude" : -38.1917, "Longitude" : 147.0745, "Confidence" : 100 }
+{ "Latitude" : -36.5839, "Longitude" : 143.0588, "Confidence" : 100 }
+{ "Latitude" : -36.5854, "Longitude" : 143.0462, "Confidence" : 100 }
+{ "Latitude" : -37.9071, "Longitude" : 143.538, "Confidence" : 100 }
+{ "Latitude" : -37.3902, "Longitude" : 148.2955, "Confidence" : 100 }
+{ "Latitude" : -37.5027, "Longitude" : 146.347, "Confidence" : 100 }
+{ "Latitude" : -37.5043, "Longitude" : 146.3299, "Confidence" : 100 }
+{ "Latitude" : -37.5701, "Longitude" : 142.6497, "Confidence" : 100 }
+{ "Latitude" : -37.9594, "Longitude" : 143.5638, "Confidence" : 100 }
+{ "Latitude" : -37.7002, "Longitude" : 142.9562, "Confidence" : 100 }
+{ "Latitude" : -37.5728, "Longitude" : 142.6348, "Confidence" : 100 }
+{ "Latitude" : -37.4352, "Longitude" : 143.1444, "Confidence" : 100 }
+{ "Latitude" : -35.8768, "Longitude" : 145.4627, "Confidence" : 100 }
+{ "Latitude" : -36.8283, "Longitude" : 143.4605, "Confidence" : 100 }
+{ "Latitude" : -36.6615, "Longitude" : 144.6014, "Confidence" : 100 }
+{ "Latitude" : -36.1988, "Longitude" : 145.0941, "Confidence" : 100 }
+{ "Latitude" : -36.7957, "Longitude" : 143.9652, "Confidence" : 100 }
+{ "Latitude" : -36.4142, "Longitude" : 143.1077, "Confidence" : 100 }
+{ "Latitude" : -37.0761, "Longitude" : 141.0574, "Confidence" : 100 }
+{ "Latitude" : -36.3999, "Longitude" : 144.737, "Confidence" : 100 }
+{ "Latitude" : -36.91, "Longitude" : 141.2705, "Confidence" : 100 }
+{ "Latitude" : -38.027, "Longitude" : 142.3844, "Confidence" : 100 }
+{ "Latitude" : -36.1771, "Longitude" : 145.7451, "Confidence" : 100 }
+{ "Latitude" : -37.0899, "Longitude" : 141.0238, "Confidence" : 100 }
+{ "Latitude" : -37.3847, "Longitude" : 142.8935, "Confidence" : 100 }
+{ "Latitude" : -35.6374, "Longitude" : 142.3787, "Confidence" : 100 }
+{ "Latitude" : -36.4125, "Longitude" : 143.1189, "Confidence" : 100 }
+{ "Latitude" : -37.4591, "Longitude" : 144.9492, "Confidence" : 100 }
+{ "Latitude" : -36.4518, "Longitude" : 144.7752, "Confidence" : 100 }
+{ "Latitude" : -36.0837, "Longitude" : 144.2448, "Confidence" : 100 }
+{ "Latitude" : -36.7089, "Longitude" : 143.3518, "Confidence" : 100 }
+{ "Latitude" : -37.1999, "Longitude" : 143.8231, "Confidence" : 100 }
+{ "Latitude" : -38.0254, "Longitude" : 142.3959, "Confidence" : 100 }
+{ "Latitude" : -38.0795, "Longitude" : 143.2449, "Confidence" : 100 }
+{ "Latitude" : -35.1857, "Longitude" : 141.0604, "Confidence" : 100 }
+{ "Latitude" : -35.6469, "Longitude" : 142.376, "Confidence" : 100 }
+{ "Latitude" : -36.4409, "Longitude" : 141.6948, "Confidence" : 100 }
+{ "Latitude" : -37.9174, "Longitude" : 145.8678, "Confidence" : 100 }
+{ "Latitude" : -35.8182, "Longitude" : 143.8739, "Confidence" : 100 }
+{ "Latitude" : -37.9246, "Longitude" : 146.2464, "Confidence" : 100 }
+{ "Latitude" : -36.3972, "Longitude" : 141.6041, "Confidence" : 100 }
+{ "Latitude" : -37.5949, "Longitude" : 142.6857, "Confidence" : 100 }
+{ "Latitude" : -37.8249, "Longitude" : 143.6174, "Confidence" : 100 }
+{ "Latitude" : -35.2378, "Longitude" : 142.9864, "Confidence" : 100 }
+{ "Latitude" : -37.2168, "Longitude" : 147.4748, "Confidence" : 100 }
+{ "Latitude" : -35.805, "Longitude" : 142.1326, "Confidence" : 100 }
+{ "Latitude" : -37.8429, "Longitude" : 143.8366, "Confidence" : 100 }
+{ "Latitude" : -36.9918, "Longitude" : 141.8667, "Confidence" : 100 }
+{ "Latitude" : -37.782, "Longitude" : 148.3844, "Confidence" : 100 }
+{ "Latitude" : -36.9034, "Longitude" : 141.0013, "Confidence" : 100 }
+{ "Latitude" : -36.9018, "Longitude" : 141.0146, "Confidence" : 100 }
+{ "Latitude" : -37.4343, "Longitude" : 147.6327, "Confidence" : 100 }
+{ "Latitude" : -37.3735, "Longitude" : 145.8384, "Confidence" : 100 }
+{ "Latitude" : -36.1819, "Longitude" : 145.9269, "Confidence" : 100 }
+{ "Latitude" : -37.297, "Longitude" : 143.5753, "Confidence" : 100 }
+{ "Latitude" : -37.2988, "Longitude" : 143.5487, "Confidence" : 100 }
+{ "Latitude" : -37.3025, "Longitude" : 143.5714, "Confidence" : 100 }
+{ "Latitude" : -37.383, "Longitude" : 145.9089, "Confidence" : 100 }
+{ "Latitude" : -37.5012, "Longitude" : 142.5853, "Confidence" : 100 }
+{ "Latitude" : -38.0693, "Longitude" : 142.9722, "Confidence" : 100 }
+{ "Latitude" : -37.8881, "Longitude" : 145.8229, "Confidence" : 100 }
+{ "Latitude" : -37.3949, "Longitude" : 147.0175, "Confidence" : 100 }
+{ "Latitude" : -37.4229, "Longitude" : 147.027, "Confidence" : 100 }
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.4
+{
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"Max Wind Speed" : 14,
+	"Surface_Temperature" : 38
+}
+{
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"Max Wind Speed" : 14,
+	"Surface_Temperature" : 36
+}
+{
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"Max Wind Speed" : 14,
+	"Surface_Temperature" : 40
+}
+{
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"Max Wind Speed" : 14,
+	"Surface_Temperature" : 42
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 43
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 73
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 33
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 54
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 55
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 75
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 55
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 66
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 56
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 60
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 73
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 48
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 55
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 64
+}
+{
+	"Date" : "2017-12-16",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 53.7,
+	"Max Wind Speed" : 13,
+	"Surface_Temperature" : 57
+}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.5
+{
+	"Datetime" : "2017-12-25T04:29:08",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-16T15:38:39",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-16T04:35:13",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-27T00:02:14",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-12-16T04:34:58",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-27T00:02:15",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-12-16T04:34:58",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-16T04:34:57",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-16T00:21:12",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-16T00:21:11",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-16T00:20:53",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-14T04:47:25",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-15T13:17:17",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-12-13T04:04:19",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-12-09T00:14:34",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-09T00:14:34",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-09T00:14:33",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-09T00:14:33",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-12-08T13:11:44",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-12-08T13:11:44",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-12-08T13:11:43",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-11-30T15:38:36",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T15:38:35",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T15:38:35",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T12:22:15",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 38,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T12:22:15",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T12:22:15",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T12:22:15",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T12:22:14",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T04:34:57",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 83,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T04:35:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T04:34:57",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T04:34:57",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T04:34:57",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T00:20:53",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T00:20:53",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T00:20:53",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T00:20:53",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-30T00:20:53",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-11-29T13:17:24",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-11-29T03:52:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-11-29T03:52:10",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-11-29T03:52:10",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-11-23T04:28:59",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-11-23T04:28:59",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-11-22T03:46:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-11-22T03:46:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-11-21T00:27:21",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-11-14T04:35:04",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 28
+}
+{
+	"Datetime" : "2017-11-13T03:52:15",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-11-13T03:52:14",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-11-12T00:33:15",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-11-11T13:30:08",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-11-11T13:30:08",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 37,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-11-11T04:04:25",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-11-09T04:16:48",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-11-09T04:16:48",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-11-09T04:16:48",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-11-09T04:16:44",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-11-09T04:16:44",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-11-05T04:41:34",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-11-05T04:41:19",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-11-05T04:41:19",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-28T03:52:17",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-10-27T04:47:31",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-10-26T13:30:31",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-26T13:30:31",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-21T01:09:55",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-10-21T01:09:54",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-10-20T04:41:19",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-20T04:41:19",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-18T00:39:02",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-10-18T00:39:02",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 26
+}
+{
+	"Datetime" : "2017-10-17T13:36:12",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-10-17T04:10:45",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-10-17T04:10:32",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-10-15T04:23:01",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-15T04:23:01",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-10T04:04:19",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-07T12:59:33",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-10-04T04:41:02",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-10-04T04:41:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-10-04T04:41:00",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-10-04T04:41:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-10-03T13:23:43",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:15",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:15",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:15",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:15",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:15",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:14",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:14",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-03T03:58:14",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-10-02T04:53:10",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-10-02T04:53:09",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-10-01T15:13:56",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-10-01T04:10:28",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-10-01T04:10:28",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-09-29T04:22:31",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-27T04:35:36",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-09-27T04:35:36",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-09-24T15:07:47",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T15:07:47",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 41,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T15:07:47",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T15:07:45",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T15:07:45",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T13:30:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 47,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T13:30:09",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T13:30:09",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 38,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T13:30:09",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T13:30:07",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T04:04:19",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T04:04:18",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-24T04:04:04",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-23T23:50:44",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T12:47:12",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T04:59:13",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T04:59:11",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-23T04:59:11",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-09-20T04:29:03",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-20T04:28:45",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-10T04:00:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-09-20T04:29:03",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 112,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-09-10T03:53:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-09-10T03:50:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-09-10T03:50:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-08-13T05:08:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-08-13T05:05:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-08-13T05:02:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-08-02T03:45:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 5
+}
+{
+	"Datetime" : "2017-08-01T00:20:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 7
+}
+{
+	"Datetime" : "2017-07-31T13:21:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 51,
+	"Air_Temperature" : 7
+}
+{
+	"Datetime" : "2017-07-31T13:21:00",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 7
+}
+{
+	"Datetime" : "2017-07-06T04:08:00",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-07-06T04:02:00",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-07-02T04:29:18",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 6
+}
+{
+	"Datetime" : "2017-07-02T04:29:18",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 6
+}
+{
+	"Datetime" : "2017-07-02T04:29:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 6
+}
+{
+	"Datetime" : "2017-07-02T04:29:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 6
+}
+{
+	"Datetime" : "2017-06-30T00:27:19",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 5
+}
+{
+	"Datetime" : "2017-06-30T00:27:19",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 48,
+	"Air_Temperature" : 5
+}
+{
+	"Datetime" : "2017-06-20T04:02:00",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-06-20T04:02:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-06-20T04:02:00",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-06-20T04:02:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-06-14T04:43:00",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-06-09T04:23:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 52,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-06-09T04:23:16",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-06-07T04:35:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-07T04:32:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-07T04:33:50",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-07T04:32:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-07T04:32:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-07T04:32:10",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 8
+}
+{
+	"Datetime" : "2017-06-04T04:08:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-06-04T04:08:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-06-04T04:02:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-06-04T04:02:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-06-02T04:14:10",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-06-02T04:14:10",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-06-01T05:09:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 11
+}
+{
+	"Datetime" : "2017-05-26T04:08:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-05-23T00:58:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-05-23T00:54:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-05-22T04:43:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:34:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:32:20",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:32:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:32:20",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:32:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T04:32:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T00:15:00",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T00:13:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-22T00:13:00",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-05-15T04:34:30",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:34:30",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:33:00",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:33:00",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:32:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:32:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:31:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:31:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:30:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:29:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:29:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:28:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:28:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:28:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:27:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 110,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-15T00:12:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-13T04:45:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 102,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:43:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:41:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:40:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 120,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:40:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:39:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:39:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:39:00",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-13T04:38:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-12T03:57:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-12T03:56:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-12T03:56:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-11T04:57:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:57:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:54:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:51:00",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 9
+}
+{
+	"Datetime" : "2017-05-10T04:16:30",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:16:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:14:20",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:14:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:12:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:12:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:11:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:11:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:11:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:50",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:50",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 83,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-09T12:56:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-09T05:02:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:26:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:24:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 115,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-08T04:20:10",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:39:00",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:33:00",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:32:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:32:50",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:32:20",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T04:32:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T00:16:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-06T00:13:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-05-05T03:59:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:57:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:53:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:53:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:53:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:51:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:50:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:50:20",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:50:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-05T03:50:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-04T04:53:10",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:51:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:51:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:48:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:48:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:48:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:48:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:48:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:20",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:46:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:30",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:00",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:45:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 119,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 110,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 108,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 112,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 105,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T04:44:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T00:28:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T00:25:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T00:25:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T00:25:00",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-04T00:24:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:12:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:09:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 115,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:09:20",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:08:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:06:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:05:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:05:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:05:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 104,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:03:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 110,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:03:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:03:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 91,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:03:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-03T04:02:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-02T23:48:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-02T23:44:00",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-02T23:44:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 10
+}
+{
+	"Datetime" : "2017-05-01T04:17:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 122,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 99,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-05-01T04:14:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 117,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-29T04:33:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-25T05:02:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-24T04:08:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-24T04:08:20",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 108,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-23T12:55:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 50,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T12:50:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T12:50:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T05:03:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T05:03:40",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T05:02:50",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T05:02:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-23T05:02:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-22T04:20:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-04-20T04:44:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:34:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:33:20",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:32:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:32:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:32:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:32:30",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T04:32:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T00:18:40",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T00:18:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T00:17:10",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T00:14:10",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-20T00:13:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-04-19T13:18:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 40,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T13:15:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T13:15:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T13:23:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:53:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:52:10",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:52:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:52:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:52:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:51:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:51:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:51:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-19T03:50:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 22
+}
+{
+	"Datetime" : "2017-04-18T04:56:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:55:00",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:54:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:53:00",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:52:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:52:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 124,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:52:00",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:51:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:50:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:49:50",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:20",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:48:10",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:47:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:46:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:46:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:46:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:46:00",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:50",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:50",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:00",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:45:00",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 114,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 120,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 117,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T04:44:50",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:30:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:30:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:28:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:24:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:24:50",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:24:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-18T00:24:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-17T04:08:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:03:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:03:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T04:02:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T01:20:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-17T01:19:10",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-16T05:07:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-16T04:59:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-16T04:57:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-16T04:56:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-16T04:56:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-16T04:56:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-15T04:20:40",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:20:40",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:17:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:17:10",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:16:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:16:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:16:00",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:10",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:15:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:50",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:50",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 116,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 110,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-15T04:14:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 100,
+	"Air_Temperature" : 12
+}
+{
+	"Datetime" : "2017-04-14T05:15:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T05:09:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T05:09:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T05:09:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T03:35:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T03:33:00",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 84,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T03:33:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-14T03:33:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 13
+}
+{
+	"Datetime" : "2017-04-13T04:38:00",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:38:00",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:38:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 97,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:36:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:36:50",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:36:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:36:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:35:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:35:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:35:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:34:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:34:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:34:20",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:30",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:10",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:33:00",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:32:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:31:00",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:30:50",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:30:50",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:30:10",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:30:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:40",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:50",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:29:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 114,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:20",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 120,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 102,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:28:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:40",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:27:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 107,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 115,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 104,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 97,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 87,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 112,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 110,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 108,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 99,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 91,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T04:26:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T00:07:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T00:07:10",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-13T00:07:00",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-12T13:15:10",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T05:28:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 106,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T05:28:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T05:21:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T05:21:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:54:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:50:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:50:00",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:50:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 106,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:47:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:45:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-12T03:44:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-11T04:39:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-11T04:39:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-11T04:39:00",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-04-08T04:14:00",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:12:50",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:12:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 94,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:12:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:08:50",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 83,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:08:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:08:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:08:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-08T04:08:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-07T12:56:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 41,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:56:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:56:30",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:53:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 41,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:51:20",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 45,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:52:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 41,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:51:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:50:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T12:50:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T05:09:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T05:03:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T05:03:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:31:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:28:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:27:20",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:27:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:27:20",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-07T03:27:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 106,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-04-06T13:45:30",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 45,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:32:20",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:31:10",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 97,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 99,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:00",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:27:00",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:24:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:24:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:24:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:24:00",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:23:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:23:50",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 85,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:23:30",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:23:10",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:23:00",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:20",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 69,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:22:10",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:21:30",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:21:10",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:21:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 115,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:21:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:50",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 104,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 100,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-06T04:20:40",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-04-05T13:09:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:09:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:08:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 44,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:08:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 47,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:07:00",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 40,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:04:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 49,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:03:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:03:00",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 45,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:03:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:03:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:02:40",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 42,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T13:02:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 39,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T05:16:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 88,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T05:15:30",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 83,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:40:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:40:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:40:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:20",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:20",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-05T03:39:10",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 17
+}
+{
+	"Datetime" : "2017-04-04T15:31:00",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 44,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T15:30:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:41:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:41:50",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:41:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:41:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:39:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:40:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 120,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:39:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:39:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:39:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:39:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 107,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:37:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:36:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:36:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:36:00",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:35:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 95,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:34:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:34:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:34:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:34:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:34:00",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:50",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:00",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:33:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 123,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 118,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 120,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 92,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 101,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T04:32:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-04T00:12:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 16
+}
+{
+	"Datetime" : "2017-04-03T13:17:00",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 43,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T13:15:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 40,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T13:15:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T13:15:10",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 45,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:59:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 96,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:57:50",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:56:20",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:55:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:55:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:53:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 93,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:54:00",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 78,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:53:30",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:30",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 115,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:30",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:52:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:30",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:30",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:00",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:00",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:51:00",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 103,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 97,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T03:50:40",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-04-03T01:07:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 15
+}
+{
+	"Datetime" : "2017-03-31T05:07:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-31T05:01:20",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-31T04:58:30",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-31T04:58:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-31T04:57:10",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 61,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-31T00:36:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 14
+}
+{
+	"Datetime" : "2017-03-28T04:38:00",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:33:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:33:30",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:33:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 76,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:32:20",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 56,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:10",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:10",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 82,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:10",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:30:10",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:28:30",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:28:30",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:28:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:27:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:27:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 107,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:27:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 108,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:27:00",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:27:00",
+	"Confidence" : 99,
+	"Surface Temperature (Celcius)" : 86,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 90,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 63,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 81,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 83,
+	"Surface Temperature (Celcius)" : 57,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-28T04:26:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-26T04:43:20",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:40:50",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 54,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 91,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 89,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-26T04:39:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:59:50",
+	"Confidence" : 82,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:58:10",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:58:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:57:10",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:57:10",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 111,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:57:10",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 77,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-25T03:56:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 99,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-19T04:39:20",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:39:50",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:32:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 91,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:36:00",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 66,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:32:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 58,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:33:00",
+	"Confidence" : 98,
+	"Surface Temperature (Celcius)" : 83,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:32:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 113,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:32:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 106,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-19T04:32:40",
+	"Confidence" : 92,
+	"Surface Temperature (Celcius)" : 70,
+	"Air_Temperature" : 24
+}
+{
+	"Datetime" : "2017-03-18T03:50:50",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 121,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-18T03:50:40",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-17T04:48:20",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 74,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-17T04:45:10",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-17T04:45:00",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 60,
+	"Air_Temperature" : 18
+}
+{
+	"Datetime" : "2017-03-14T04:24:40",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 67,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:22:20",
+	"Confidence" : 93,
+	"Surface Temperature (Celcius)" : 72,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:20:50",
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:16:30",
+	"Confidence" : 95,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:16:20",
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:14:40",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:14:30",
+	"Confidence" : 96,
+	"Surface Temperature (Celcius)" : 79,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-14T04:14:30",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 75,
+	"Air_Temperature" : 25
+}
+{
+	"Datetime" : "2017-03-12T04:33:50",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 105,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-12T04:29:50",
+	"Confidence" : 84,
+	"Surface Temperature (Celcius)" : 71,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-12T04:28:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 99,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-12T04:28:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 68,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-12T04:27:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 98,
+	"Air_Temperature" : 21
+}
+{
+	"Datetime" : "2017-03-10T04:48:40",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 105,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-10T04:46:20",
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 109,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-10T04:45:30",
+	"Confidence" : 94,
+	"Surface Temperature (Celcius)" : 73,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-10T04:45:30",
+	"Confidence" : 97,
+	"Surface Temperature (Celcius)" : 80,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-10T04:43:50",
+	"Confidence" : 81,
+	"Surface Temperature (Celcius)" : 55,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-09T13:23:40",
+	"Confidence" : 86,
+	"Surface Temperature (Celcius)" : 41,
+	"Air_Temperature" : 23
+}
+{
+	"Datetime" : "2017-03-06T05:06:20",
+	"Confidence" : 85,
+	"Surface Temperature (Celcius)" : 59,
+	"Air_Temperature" : 20
+}
+{
+	"Datetime" : "2017-03-07T04:16:10",
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 64,
+	"Air_Temperature" : 19
+}
+{
+	"Datetime" : "2017-03-06T05:06:30",
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 62,
+	"Air_Temperature" : 20
+}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.6
+{ "Surface Temperature (Celcius)" : 124 }
+{ "Surface Temperature (Celcius)" : 123 }
+{ "Surface Temperature (Celcius)" : 122 }
+{ "Surface Temperature (Celcius)" : 121 }
+{ "Surface Temperature (Celcius)" : 120 }
+{ "Surface Temperature (Celcius)" : 120 }
+{ "Surface Temperature (Celcius)" : 120 }
+{ "Surface Temperature (Celcius)" : 120 }
+{ "Surface Temperature (Celcius)" : 120 }
+{ "Surface Temperature (Celcius)" : 119 }
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.7
+{ "total" : 1, "date" : "2017-03-07" }
+{ "total" : 3, "date" : "2017-03-09" }
+{ "total" : 8, "date" : "2017-03-10" }
+{ "total" : 5, "date" : "2017-03-12" }
+{ "total" : 2, "date" : "2017-03-13" }
+{ "total" : 3, "date" : "2017-03-18" }
+{ "total" : 13, "date" : "2017-03-25" }
+{ "total" : 17, "date" : "2017-03-26" }
+{ "total" : 1, "date" : "2017-03-29" }
+{ "total" : 7, "date" : "2017-04-01" }
+{ "total" : 5, "date" : "2017-04-02" }
+{ "total" : 89, "date" : "2017-04-04" }
+{ "total" : 24, "date" : "2017-04-11" }
+{ "total" : 69, "date" : "2017-04-12" }
+{ "total" : 357, "date" : "2017-04-13" }
+{ "total" : 69, "date" : "2017-04-15" }
+{ "total" : 72, "date" : "2017-04-03" }
+{ "total" : 18, "date" : "2017-04-16" }
+{ "total" : 2, "date" : "2017-03-08" }
+{ "total" : 325, "date" : "2017-04-18" }
+{ "total" : 50, "date" : "2017-04-19" }
+{ "total" : 38, "date" : "2017-04-17" }
+{ "total" : 31, "date" : "2017-04-20" }
+{ "total" : 2, "date" : "2017-04-22" }
+{ "total" : 19, "date" : "2017-04-23" }
+{ "total" : 8, "date" : "2017-04-24" }
+{ "total" : 1, "date" : "2017-04-26" }
+{ "total" : 3, "date" : "2017-04-29" }
+{ "total" : 20, "date" : "2017-05-01" }
+{ "total" : 64, "date" : "2017-05-03" }
+{ "total" : 31, "date" : "2017-05-05" }
+{ "total" : 7, "date" : "2017-03-15" }
+{ "total" : 17, "date" : "2017-05-06" }
+{ "total" : 49, "date" : "2017-04-05" }
+{ "total" : 10, "date" : "2017-05-12" }
+{ "total" : 3, "date" : "2017-05-16" }
+{ "total" : 6, "date" : "2017-06-30" }
+{ "total" : 1, "date" : "2017-05-17" }
+{ "total" : 5, "date" : "2017-09-20" }
+{ "total" : 33, "date" : "2017-05-22" }
+{ "total" : 6, "date" : "2017-03-17" }
+{ "total" : 4, "date" : "2017-05-26" }
+{ "total" : 11, "date" : "2017-06-02" }
+{ "total" : 3, "date" : "2017-04-25" }
+{ "total" : 2, "date" : "2017-06-03" }
+{ "total" : 1, "date" : "2017-05-14" }
+{ "total" : 2, "date" : "2017-06-11" }
+{ "total" : 14, "date" : "2017-06-07" }
+{ "total" : 1, "date" : "2017-06-13" }
+{ "total" : 4, "date" : "2017-06-14" }
+{ "total" : 2, "date" : "2017-03-24" }
+{ "total" : 6, "date" : "2017-06-20" }
+{ "total" : 15, "date" : "2017-12-16" }
+{ "total" : 1, "date" : "2017-10-08" }
+{ "total" : 1, "date" : "2017-08-05" }
+{ "total" : 4, "date" : "2017-07-01" }
+{ "total" : 24, "date" : "2017-05-08" }
+{ "total" : 8, "date" : "2017-10-01" }
+{ "total" : 1, "date" : "2017-07-04" }
+{ "total" : 22, "date" : "2017-03-31" }
+{ "total" : 1, "date" : "2017-07-05" }
+{ "total" : 2, "date" : "2017-07-29" }
+{ "total" : 1, "date" : "2017-08-10" }
+{ "total" : 13, "date" : "2017-05-09" }
+{ "total" : 2, "date" : "2017-11-08" }
+{ "total" : 1, "date" : "2017-06-22" }
+{ "total" : 5, "date" : "2017-08-14" }
+{ "total" : 54, "date" : "2017-03-28" }
+{ "total" : 5, "date" : "2017-10-04" }
+{ "total" : 1, "date" : "2017-09-22" }
+{ "total" : 9, "date" : "2017-08-13" }
+{ "total" : 9, "date" : "2017-06-04" }
+{ "total" : 2, "date" : "2017-07-31" }
+{ "total" : 2, "date" : "2017-09-29" }
+{ "total" : 4, "date" : "2017-12-27" }
+{ "total" : 10, "date" : "2017-03-14" }
+{ "total" : 2, "date" : "2017-08-01" }
+{ "total" : 4, "date" : "2017-12-15" }
+{ "total" : 5, "date" : "2017-10-17" }
+{ "total" : 1, "date" : "2017-10-07" }
+{ "total" : 1, "date" : "2017-10-09" }
+{ "total" : 2, "date" : "2017-06-01" }
+{ "total" : 1, "date" : "2017-10-28" }
+{ "total" : 6, "date" : "2017-10-18" }
+{ "total" : 3, "date" : "2017-10-20" }
+{ "total" : 5, "date" : "2017-05-23" }
+{ "total" : 3, "date" : "2017-07-06" }
+{ "total" : 1, "date" : "2017-12-25" }
+{ "total" : 18, "date" : "2017-04-14" }
+{ "total" : 19, "date" : "2017-05-11" }
+{ "total" : 7, "date" : "2017-09-27" }
+{ "total" : 4, "date" : "2017-10-21" }
+{ "total" : 7, "date" : "2017-10-02" }
+{ "total" : 5, "date" : "2017-12-08" }
+{ "total" : 1, "date" : "2017-10-23" }
+{ "total" : 2, "date" : "2017-07-14" }
+{ "total" : 28, "date" : "2017-09-24" }
+{ "total" : 118, "date" : "2017-04-06" }
+{ "total" : 39, "date" : "2017-04-07" }
+{ "total" : 2, "date" : "2017-09-21" }
+{ "total" : 5, "date" : "2017-10-26" }
+{ "total" : 5, "date" : "2017-10-27" }
+{ "total" : 4, "date" : "2017-11-05" }
+{ "total" : 114, "date" : "2017-05-10" }
+{ "total" : 2, "date" : "2017-03-06" }
+{ "total" : 1, "date" : "2017-12-13" }
+{ "total" : 3, "date" : "2017-05-24" }
+{ "total" : 54, "date" : "2017-05-13" }
+{ "total" : 5, "date" : "2017-11-12" }
+{ "total" : 4, "date" : "2017-11-11" }
+{ "total" : 102, "date" : "2017-05-15" }
+{ "total" : 2, "date" : "2017-06-18" }
+{ "total" : 2, "date" : "2017-08-02" }
+{ "total" : 5, "date" : "2017-11-13" }
+{ "total" : 1, "date" : "2017-11-28" }
+{ "total" : 3, "date" : "2017-05-07" }
+{ "total" : 1, "date" : "2017-09-26" }
+{ "total" : 7, "date" : "2017-05-18" }
+{ "total" : 2, "date" : "2017-10-06" }
+{ "total" : 3, "date" : "2017-06-09" }
+{ "total" : 20, "date" : "2017-04-08" }
+{ "total" : 2, "date" : "2017-06-16" }
+{ "total" : 2, "date" : "2017-11-22" }
+{ "total" : 4, "date" : "2017-09-10" }
+{ "total" : 8, "date" : "2017-11-29" }
+{ "total" : 3, "date" : "2017-10-15" }
+{ "total" : 3, "date" : "2017-11-14" }
+{ "total" : 4, "date" : "2017-12-09" }
+{ "total" : 1, "date" : "2017-12-12" }
+{ "total" : 10, "date" : "2017-11-09" }
+{ "total" : 3, "date" : "2017-10-10" }
+{ "total" : 2, "date" : "2017-12-10" }
+{ "total" : 18, "date" : "2017-10-03" }
+{ "total" : 23, "date" : "2017-09-23" }
+{ "total" : 21, "date" : "2017-03-19" }
+{ "total" : 31, "date" : "2017-11-30" }
+{ "total" : 10, "date" : "2017-05-02" }
+{ "total" : 1, "date" : "2017-11-21" }
+{ "total" : 1, "date" : "2017-12-14" }
+{ "total" : 1, "date" : "2017-10-16" }
+{ "total" : 135, "date" : "2017-05-04" }
+{ "total" : 1, "date" : "2017-12-21" }
+{ "total" : 8, "date" : "2017-07-02" }
+{ "total" : 5, "date" : "2017-11-23" }
+{ "total" : 1, "date" : "2017-12-24" }
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Task A.8
+{ "average" : 64, "date" : "2017-03-07" }
+{ "average" : 46.666666666666664, "date" : "2017-03-09" }
+{ "average" : 69.375, "date" : "2017-03-10" }
+{ "average" : 88.2, "date" : "2017-03-12" }
+{ "average" : 38.5, "date" : "2017-03-13" }
+{ "average" : 79.33333333333333, "date" : "2017-03-18" }
+{ "average" : 66, "date" : "2017-03-25" }
+{ "average" : 56.88235294117647, "date" : "2017-03-26" }
+{ "average" : 51, "date" : "2017-03-29" }
+{ "average" : 46.714285714285715, "date" : "2017-04-01" }
+{ "average" : 45.2, "date" : "2017-04-02" }
+{ "average" : 62.57303370786517, "date" : "2017-04-04" }
+{ "average" : 46.291666666666664, "date" : "2017-04-11" }
+{ "average" : 52.69565217391305, "date" : "2017-04-12" }
+{ "average" : 58.57983193277311, "date" : "2017-04-13" }
+{ "average" : 59.57971014492754, "date" : "2017-04-15" }
+{ "average" : 58.44444444444444, "date" : "2017-04-03" }
+{ "average" : 48.72222222222222, "date" : "2017-04-16" }
+{ "average" : 51.5, "date" : "2017-03-08" }
+{ "average" : 53.36615384615384, "date" : "2017-04-18" }
+{ "average" : 54.16, "date" : "2017-04-19" }
+{ "average" : 50.921052631578945, "date" : "2017-04-17" }
+{ "average" : 56.58064516129032, "date" : "2017-04-20" }
+{ "average" : 54.5, "date" : "2017-04-22" }
+{ "average" : 53.89473684210526, "date" : "2017-04-23" }
+{ "average" : 59.375, "date" : "2017-04-24" }
+{ "average" : 34, "date" : "2017-04-26" }
+{ "average" : 63, "date" : "2017-04-29" }
+{ "average" : 68.4, "date" : "2017-05-01" }
+{ "average" : 56.796875, "date" : "2017-05-03" }
+{ "average" : 51.70967741935484, "date" : "2017-05-05" }
+{ "average" : 46, "date" : "2017-03-15" }
+{ "average" : 57.529411764705884, "date" : "2017-05-06" }
+{ "average" : 53.142857142857146, "date" : "2017-04-05" }
+{ "average" : 51.5, "date" : "2017-05-12" }
+{ "average" : 39.666666666666664, "date" : "2017-05-16" }
+{ "average" : 44.333333333333336, "date" : "2017-06-30" }
+{ "average" : 52, "date" : "2017-05-17" }
+{ "average" : 63.6, "date" : "2017-09-20" }
+{ "average" : 54.484848484848484, "date" : "2017-05-22" }
+{ "average" : 59.5, "date" : "2017-03-17" }
+{ "average" : 49.5, "date" : "2017-05-26" }
+{ "average" : 47.72727272727273, "date" : "2017-06-02" }
+{ "average" : 48.666666666666664, "date" : "2017-04-25" }
+{ "average" : 47, "date" : "2017-06-03" }
+{ "average" : 49, "date" : "2017-05-14" }
+{ "average" : 41.5, "date" : "2017-06-11" }
+{ "average" : 51.857142857142854, "date" : "2017-06-07" }
+{ "average" : 41, "date" : "2017-06-13" }
+{ "average" : 53.25, "date" : "2017-06-14" }
+{ "average" : 49, "date" : "2017-03-24" }
+{ "average" : 71.16666666666667, "date" : "2017-06-20" }
+{ "average" : 57.8, "date" : "2017-12-16" }
+{ "average" : 41, "date" : "2017-10-08" }
+{ "average" : 40, "date" : "2017-08-05" }
+{ "average" : 30.5, "date" : "2017-07-01" }
+{ "average" : 56.291666666666664, "date" : "2017-05-08" }
+{ "average" : 48.25, "date" : "2017-10-01" }
+{ "average" : 40, "date" : "2017-07-04" }
+{ "average" : 48.72727272727273, "date" : "2017-03-31" }
+{ "average" : 45, "date" : "2017-07-05" }
+{ "average" : 48, "date" : "2017-07-29" }
+{ "average" : 63, "date" : "2017-08-10" }
+{ "average" : 42.46153846153846, "date" : "2017-05-09" }
+{ "average" : 45.5, "date" : "2017-11-08" }
+{ "average" : 46, "date" : "2017-06-22" }
+{ "average" : 40.8, "date" : "2017-08-14" }
+{ "average" : 60.925925925925924, "date" : "2017-03-28" }
+{ "average" : 49, "date" : "2017-10-04" }
+{ "average" : 45, "date" : "2017-09-22" }
+{ "average" : 49, "date" : "2017-08-13" }
+{ "average" : 52.22222222222222, "date" : "2017-06-04" }
+{ "average" : 47, "date" : "2017-07-31" }
+{ "average" : 43, "date" : "2017-09-29" }
+{ "average" : 62.75, "date" : "2017-12-27" }
+{ "average" : 65.6, "date" : "2017-03-14" }
+{ "average" : 58, "date" : "2017-08-01" }
+{ "average" : 39, "date" : "2017-12-15" }
+{ "average" : 51.6, "date" : "2017-10-17" }
+{ "average" : 42, "date" : "2017-10-07" }
+{ "average" : 44, "date" : "2017-10-09" }
+{ "average" : 54, "date" : "2017-06-01" }
+{ "average" : 56, "date" : "2017-10-28" }
+{ "average" : 52.166666666666664, "date" : "2017-10-18" }
+{ "average" : 50, "date" : "2017-10-20" }
+{ "average" : 51.2, "date" : "2017-05-23" }
+{ "average" : 56, "date" : "2017-07-06" }
+{ "average" : 54, "date" : "2017-12-25" }
+{ "average" : 61.94444444444444, "date" : "2017-04-14" }
+{ "average" : 59.36842105263158, "date" : "2017-05-11" }
+{ "average" : 49.714285714285715, "date" : "2017-09-27" }
+{ "average" : 51.25, "date" : "2017-10-21" }
+{ "average" : 43.57142857142857, "date" : "2017-10-02" }
+{ "average" : 50.6, "date" : "2017-12-08" }
+{ "average" : 38, "date" : "2017-10-23" }
+{ "average" : 41.5, "date" : "2017-07-14" }
+{ "average" : 53.57142857142857, "date" : "2017-09-24" }
+{ "average" : 61.71186440677966, "date" : "2017-04-06" }
+{ "average" : 50.69230769230769, "date" : "2017-04-07" }
+{ "average" : 40.5, "date" : "2017-09-21" }
+{ "average" : 44.6, "date" : "2017-10-26" }
+{ "average" : 50.4, "date" : "2017-10-27" }
+{ "average" : 58.5, "date" : "2017-11-05" }
+{ "average" : 52.86842105263158, "date" : "2017-05-10" }
+{ "average" : 60.5, "date" : "2017-03-06" }
+{ "average" : 60, "date" : "2017-12-13" }
+{ "average" : 40.333333333333336, "date" : "2017-05-24" }
+{ "average" : 58.611111111111114, "date" : "2017-05-13" }
+{ "average" : 53, "date" : "2017-11-12" }
+{ "average" : 46.25, "date" : "2017-11-11" }
+{ "average" : 53.950980392156865, "date" : "2017-05-15" }
+{ "average" : 42, "date" : "2017-06-18" }
+{ "average" : 63.5, "date" : "2017-08-02" }
+{ "average" : 47, "date" : "2017-11-13" }
+{ "average" : 42, "date" : "2017-11-28" }
+{ "average" : 50.333333333333336, "date" : "2017-05-07" }
+{ "average" : 33, "date" : "2017-09-26" }
+{ "average" : 44.142857142857146, "date" : "2017-05-18" }
+{ "average" : 44, "date" : "2017-10-06" }
+{ "average" : 49, "date" : "2017-06-09" }
+{ "average" : 60.75, "date" : "2017-04-08" }
+{ "average" : 42.5, "date" : "2017-06-16" }
+{ "average" : 61.5, "date" : "2017-11-22" }
+{ "average" : 56.5, "date" : "2017-09-10" }
+{ "average" : 60.625, "date" : "2017-11-29" }
+{ "average" : 72.66666666666667, "date" : "2017-10-15" }
+{ "average" : 52, "date" : "2017-11-14" }
+{ "average" : 58.25, "date" : "2017-12-09" }
+{ "average" : 44, "date" : "2017-12-12" }
+{ "average" : 61.3, "date" : "2017-11-09" }
+{ "average" : 53.333333333333336, "date" : "2017-10-10" }
+{ "average" : 46, "date" : "2017-12-10" }
+{ "average" : 50, "date" : "2017-10-03" }
+{ "average" : 52.73913043478261, "date" : "2017-09-23" }
+{ "average" : 65.57142857142857, "date" : "2017-03-19" }
+{ "average" : 52.41935483870968, "date" : "2017-11-30" }
+{ "average" : 55.6, "date" : "2017-05-02" }
+{ "average" : 59, "date" : "2017-11-21" }
+{ "average" : 70, "date" : "2017-12-14" }
+{ "average" : 36, "date" : "2017-10-16" }
+{ "average" : 56.80740740740741, "date" : "2017-05-04" }
+{ "average" : 46, "date" : "2017-12-21" }
+{ "average" : 43.5, "date" : "2017-07-02" }
+{ "average" : 58.8, "date" : "2017-11-23" }
+{ "average" : 32, "date" : "2017-12-24" }
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+bye

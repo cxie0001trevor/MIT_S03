@@ -1,0 +1,64 @@
+---
+title: "FIT5197_ass3_wk11"
+author: "Chuangfu Xie, 27771539"
+date: "28/05/2018"
+output: html_document
+---
+First load tree package:
+```{r}
+library(tree)
+```
+Then, we load the fire and preprocess for tree:
+```{r}
+train <- read.csv('./diabetes_train.csv')
+test <- read.csv('./diabetes_test.csv')
+train$Y <- as.factor(train$Y > 200) 
+test$Y <- as.factor(test$Y > 200)
+tree_diabetes <- tree(Y~., train)
+summary(tree_diabetes)
+```
+Take a peek at the tree:
+```{r}
+tree_diabetes
+```
+
+```{r}
+train$S5_cnt = as.factor(train$S5<4.88275) 
+train$BP_cnt = as.factor(train$BP<102.5) 
+train$BMI_cnt = as.factor(train$BMI<31.55) 
+attach(train) 
+table(S5_cnt, Y)
+table(BP_cnt, Y)
+table(BMI_cnt, Y)
+```
+From above, we can compute their entropy:
+```{r}
+S5_l = (-(49/(113))*log2(49/113))-((64/113)*log2(64/113)) 
+S5_g = (-(213/(241))*log2(213/241))-((28/241)*log2(28/241)) 
+p_l = 113/(113+241) 
+p_g = 241/(113+241) 
+H_S5 = S5_l*p_l + S5_g*p_g
+```
+
+```{r}
+BP_l = (-(45/(98))*log2(45/98))-((53/98)*log2(53/98)) 
+BP_g = (-(217/(256))*log2(217/256))-((39/256)*log2(39/256)) 
+p_l = 98/(98+256) 
+p_g = 256/(98+256) 
+H_BP = BP_l*p_l + BP_g*p_g
+```
+
+
+```{r}
+BMI_l = (-(15/(52))*log2(15/52))-((37/52)*log2(37/52)) 
+BMI_g = (-(247/(302))*log2(247/302))-((55/302)*log2(55/302)) 
+p_l = 52/(52+302) 
+p_g = 302/(52+302) 
+H_BMI = BMI_l*p_l + BMI_g*p_g
+```
+
+```{r}
+cat("H(S5)=",H_S5,'\n')
+cat("H(BP)=",H_BP,'\n')
+cat("H(BMI)=",H_BMI,'\n')
+```

@@ -1,0 +1,831 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={FIT5197 2018 S1 Assignment 2},
+            pdfauthor={Chuangfu Xie, 27771539},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{FIT5197 2018 S1 Assignment 2}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Chuangfu Xie, 27771539}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{22/05/2018}
+
+
+\begin{document}
+\maketitle
+
+\subsection{1. Task A}\label{task-a}
+
+\subsubsection{A.1. Handle MVs}\label{a.1.-handle-mvs}
+
+First, let's load data from the current working directory, then we have
+a peek at the data.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{data_A <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{'./auto_mpg_train.csv'}\NormalTok{, }\DataTypeTok{sep =} \StringTok{','}\NormalTok{)}
+\KeywordTok{dim}\NormalTok{(data_A)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 348   9
+\end{verbatim}
+
+By following the instruction, there are some missing value (MV) listed
+as \texttt{\textquotesingle{}?\textquotesingle{}}, let's find out these
+MVs at which col and how many of them:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{check_MVs <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(df)\{}
+    \ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\KeywordTok{ncol}\NormalTok{(df)))\{}
+\NormalTok{        MV_count =}\StringTok{ }\KeywordTok{sum}\NormalTok{(df[i]}\OperatorTok{==}\StringTok{'?'}\NormalTok{)}
+        \ControlFlowTok{if}\NormalTok{ (MV_count}\OperatorTok{!=}\DecValTok{0}\NormalTok{) }\KeywordTok{print}\NormalTok{(}\KeywordTok{paste}\NormalTok{(}\StringTok{"Col:"}\NormalTok{,i,}\StringTok{", Mv:"}\NormalTok{,MV_count))}
+\NormalTok{\}\}}
+\KeywordTok{check_MVs}\NormalTok{(data_A)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Col: 4 , Mv: 6"
+\end{verbatim}
+
+As there are only 6 row containing MVs (\(\frac{6}{348}=1.72\%\)), we
+just drop them since train data cannot contains any MVs:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{data_A <-}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_A, horsepower}\OperatorTok{!=}\StringTok{'?'}\NormalTok{)}
+\KeywordTok{check_MVs}\NormalTok{(data_A)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{A.2 Visualisation}\label{a.2-visualisation}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{pairs}\NormalTok{(}\OperatorTok{~}\NormalTok{mpg}\OperatorTok{+}\NormalTok{cylinders}\OperatorTok{+}\NormalTok{displacement}\OperatorTok{+}\NormalTok{horsepower}\OperatorTok{+}\NormalTok{weight}\OperatorTok{+}\NormalTok{acceleration}\OperatorTok{+}\NormalTok{model.year}\OperatorTok{+}\NormalTok{origin}\OperatorTok{+}\NormalTok{car.name,}
+      \DataTypeTok{data=}\NormalTok{data_A, }
+   \DataTypeTok{main=}\StringTok{"Pair Scatterplot"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+From above, we can clearly find that only the following columns are
+relative to \textbf{mpg}: \textbf{displacement} and \textbf{weight}.
+Since their pair scatter plot shows that their relationship with mpg are
+nearly linear, we can use it for fitting our linear regression model.
+Let's have a closer look at these data:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{pairs}\NormalTok{(}\OperatorTok{~}\NormalTok{mpg}\OperatorTok{+}\NormalTok{displacement}\OperatorTok{+}\NormalTok{weight,}
+      \DataTypeTok{data=}\NormalTok{data_A, }
+   \DataTypeTok{main=}\StringTok{"Pair Scatterplot"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+\subsubsection{A.3 Preprocessiong}\label{a.3-preprocessiong}
+
+Since their relation are nearly linear, we need to employ \textbf{power
+transformation} to improve their linearity beforehand.
+
+According to \textbf{Tukey's Ladder of Powers}:
+
+We should apply \(log_{10}(x)\) on \textbf{displacement} and
+\textbf{weight}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{data_A[}\StringTok{'displacement'}\NormalTok{] <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(data_A[}\StringTok{'displacement'}\NormalTok{], }\ControlFlowTok{function}\NormalTok{(x)\{}\KeywordTok{log}\NormalTok{(x,}\DecValTok{10}\NormalTok{)\})}
+\NormalTok{data_A[}\StringTok{'weight'}\NormalTok{] <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(data_A[}\StringTok{'weight'}\NormalTok{], }\ControlFlowTok{function}\NormalTok{(x)\{}\KeywordTok{log}\NormalTok{(x,}\DecValTok{10}\NormalTok{)\})}
+\end{Highlighting}
+\end{Shaded}
+
+Let's check their linearity:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{pairs}\NormalTok{(}\OperatorTok{~}\NormalTok{mpg}\OperatorTok{+}\NormalTok{displacement}\OperatorTok{+}\NormalTok{weight,}
+      \DataTypeTok{data=}\NormalTok{data_A, }
+   \DataTypeTok{main=}\StringTok{"Pair Scatterplot"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-7-1.pdf}
+
+Now we have linearise these data, we can extract from \textbf{mpg},
+\textbf{displacement} and \textbf{weight} to form a new train dataset
+for our linear regression model:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{train_A <-}\StringTok{ }\NormalTok{data_A[,}\KeywordTok{c}\NormalTok{(}\StringTok{'mpg'}\NormalTok{,}\StringTok{'displacement'}\NormalTok{,}\StringTok{'weight'}\NormalTok{),]}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{A.4 Fitting}\label{a.4-fitting}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model <-}\KeywordTok{lm}\NormalTok{(mpg}\OperatorTok{~}\NormalTok{displacement}\OperatorTok{+}\NormalTok{weight, train_A)}
+\KeywordTok{summary}\NormalTok{(model)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Call:
+## lm(formula = mpg ~ displacement + weight, data = train_A)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -14.2755  -2.7433  -0.1921   2.1148  16.9611 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)   178.328     13.447  13.262  < 2e-16 ***
+## displacement   -9.325      2.935  -3.177  0.00163 ** 
+## weight        -38.726      5.617  -6.894 2.65e-11 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 4.268 on 339 degrees of freedom
+## Multiple R-squared:  0.7167, Adjusted R-squared:  0.715 
+## F-statistic: 428.8 on 2 and 339 DF,  p-value: < 2.2e-16
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Call}\OperatorTok{:}
+\KeywordTok{lm}\NormalTok{(}\DataTypeTok{formula =}\NormalTok{ mpg }\OperatorTok{~}\StringTok{ }\NormalTok{displacement }\OperatorTok{+}\StringTok{ }\NormalTok{weight, }\DataTypeTok{data =}\NormalTok{ train_A)}
+\end{Highlighting}
+\end{Shaded}
+
+The first part of the output just shows the arguments we just call.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Residuals}\OperatorTok{:}
+\StringTok{     }\NormalTok{Min       1Q   Median       3Q      Max }
+\OperatorTok{-}\FloatTok{14.2755}  \OperatorTok{-}\FloatTok{2.7433}  \OperatorTok{-}\FloatTok{0.1921}   \FloatTok{2.1148}  \FloatTok{16.9611}
+\end{Highlighting}
+\end{Shaded}
+
+The second part show the quartiles of the residuals. It helps us to
+identify wether the residual look normally distributed around zero or
+not. The meadian of the residuals should be close to 0
+(\texttt{-0.1921}), and the abolute value of 1Q and 3Q should be close
+(\texttt{2.7433} v.s \texttt{2.1148}). It seems that our model is fairly
+well.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Coefficients}\OperatorTok{:}
+\StringTok{             }\NormalTok{Estimate Std. Error t value }\KeywordTok{Pr}\NormalTok{(}\OperatorTok{>}\ErrorTok{|}\NormalTok{t}\OperatorTok{|}\NormalTok{)    }
+\NormalTok{(Intercept)   }\FloatTok{178.328}     \FloatTok{13.447}  \FloatTok{13.262}  \OperatorTok{<}\StringTok{ }\FloatTok{2e-16} \OperatorTok{**}\ErrorTok{*}
+\NormalTok{displacement   }\OperatorTok{-}\FloatTok{9.325}      \FloatTok{2.935}  \OperatorTok{-}\FloatTok{3.177}  \FloatTok{0.00163} \OperatorTok{**}\StringTok{ }
+\NormalTok{weight        }\OperatorTok{-}\FloatTok{38.726}      \FloatTok{5.617}  \OperatorTok{-}\FloatTok{6.894} \FloatTok{2.65e-11} \OperatorTok{**}\ErrorTok{*}
+\OperatorTok{---}
+\NormalTok{Signif. codes}\OperatorTok{:}\StringTok{  }\DecValTok{0}\NormalTok{ ‘}\OperatorTok{**}\ErrorTok{*}\NormalTok{’ }\FloatTok{0.001}\NormalTok{ ‘}\OperatorTok{**}\NormalTok{’ }\FloatTok{0.01}\NormalTok{ ‘}\OperatorTok{*}\NormalTok{’ }\FloatTok{0.05}\NormalTok{ ‘.’ }\FloatTok{0.1}\NormalTok{ ‘ ’ }\DecValTok{1}
+\end{Highlighting}
+\end{Shaded}
+
+The third part is about the coefficients (\(\hat\beta\)). Here is some
+point to understand these number: 1. Intercept (\(\hat\beta_{0}\)) and
+slope(\(\hat\beta_{i}\)). We can use these value to plot the regression
+line. 2. The standard error measure all estimated coefficients'
+variability. The lower the error and better the fit. 3. t-values are not
+imformative, but we can use it for p-values. The lesser the p-value, the
+more descriptive the predictor variable is. 4. The last line also gives
+the idea of the significance of relevance. The more star you get, the
+more relevant the variable is.
+
+Also, we can find that it provides \(R^2\) score for checking the
+goodness of fitting. \textbf{0.7167} is high, that means our model fit
+well with the train dataset. However, we shouldn't so sure before
+checking the residual plot. let's check:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{hist}\NormalTok{(model}\OperatorTok{$}\NormalTok{residuals,}
+     \DataTypeTok{breaks =} \DecValTok{50}\NormalTok{,}
+     \DataTypeTok{main =} \StringTok{'Histogram and Density of Residuals'}\NormalTok{,}
+     \DataTypeTok{xlab=}\StringTok{'Residuals'}\NormalTok{,}
+     \DataTypeTok{probability=}\NormalTok{T)}
+\KeywordTok{lines}\NormalTok{(}\KeywordTok{density}\NormalTok{(model}\OperatorTok{$}\NormalTok{residuals),}
+      \DataTypeTok{col =} \StringTok{'red'}
+\NormalTok{     )}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-10-1.pdf}
+
+The above plot confirms that our linear model fitted to the dataset as
+both histogram and density curve show a nearly normal distribution of
+residuals.
+
+\subsubsection{A.5 Predict values and evaluate
+model}\label{a.5-predict-values-and-evaluate-model}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{data_A_test <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{'./auto_mpg_test.csv'}\NormalTok{,}\DataTypeTok{sep =} \StringTok{','}\NormalTok{)}
+\NormalTok{data_A_test[}\StringTok{'displacement'}\NormalTok{] <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(data_A_test[}\StringTok{'displacement'}\NormalTok{], }\ControlFlowTok{function}\NormalTok{(x)\{}\KeywordTok{log}\NormalTok{(x,}\DecValTok{10}\NormalTok{)\})}
+\NormalTok{data_A_test[}\StringTok{'weight'}\NormalTok{] <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(data_A_test[}\StringTok{'weight'}\NormalTok{], }\ControlFlowTok{function}\NormalTok{(x)\{}\KeywordTok{log}\NormalTok{(x,}\DecValTok{10}\NormalTok{)\})}
+\NormalTok{test_A <-}\StringTok{ }\NormalTok{data_A_test[, }\KeywordTok{c}\NormalTok{(}\StringTok{'displacement'}\NormalTok{,}\StringTok{'weight'}\NormalTok{),]}
+\end{Highlighting}
+\end{Shaded}
+
+Now, we calculate the Mean Standard error on our test data, since we
+have the formula:
+\[MSE=\frac { 1 }{ N } \sum _{ i=1 }^{ n }{ (y_{ i }-\hat { y_{ i } } )^{ 2 } } \]
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{predict_data <-}\StringTok{ }\KeywordTok{predict}\NormalTok{(model, }\DataTypeTok{newdata =}\NormalTok{ test_A)}
+\KeywordTok{mean}\NormalTok{((data_A_test}\OperatorTok{$}\NormalTok{mpg }\OperatorTok{-}\StringTok{ }\NormalTok{predict_data)}\OperatorTok{**}\DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 9.613281
+\end{verbatim}
+
+The mean squared error tells us how close the regression line is to a
+set of points. The smaller the means squared error, the closer you are
+to finding the line of best fit. However, the interpretation depends on
+the pattern of the scatter plot. Then we use another method to evaluate
+our mode:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow=}\KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{), }\DataTypeTok{pty =} \StringTok{'s'}\NormalTok{)}
+\KeywordTok{plot}\NormalTok{(model)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-13-1.pdf}
+
+Here we can find that in \textbf{Residuals \emph{versus} Fitted} plot,
+horizontal trend line in the plot \textbf{indicates a} \textbf{linear
+pattern} \textbf{between response and predictors}. For a good fit,
+residuals should be almost evenly distributed around zero line without
+any visible pattern. In this case, our model may suffer from the effect
+of outliers.
+
+\section{Task B}\label{task-b}
+
+\subsection{B.1 Handle MVs}\label{b.1-handle-mvs}
+
+First, let's load data from the current working directory, then we have
+a peek at the data.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{data_B <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{'./adult_income_train.csv'}\NormalTok{, }\DataTypeTok{sep =} \StringTok{','}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+First, let's check how many MVs in this dataset:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{check_MVs}\NormalTok{(data_B)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Col: 2 , Mv: 2799"
+## [1] "Col: 7 , Mv: 2809"
+## [1] "Col: 14 , Mv: 857"
+\end{verbatim}
+
+Now we have spotted some MVs in \textbf{workclass}, \textbf{occupation}
+and \textbf{native\_country}. let's take a look what kind of value they
+have:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(data_B[}\KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{,}\DecValTok{7}\NormalTok{,}\DecValTok{14}\NormalTok{)])}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##             workclass               occupation          native_country 
+##  Private         :30258   Prof-specialty : 5502   United-States:39240  
+##  Self-emp-not-inc: 3448   Craft-repair   : 5456   ?            :  857  
+##  Local-gov       : 2810   Exec-managerial: 5410   Mexico       :  844  
+##  ?               : 2799   Adm-clerical   : 5010   Philippines  :  266  
+##  State-gov       : 1726   Sales          : 4894   Germany      :  184  
+##  Self-emp-inc    : 1495   Other-service  : 4388   Canada       :  165  
+##  (Other)         : 1306   (Other)        :13182   (Other)      : 2286
+\end{verbatim}
+
+From summary above, we can find that the reason why \textbf{workclass},
+\textbf{occupation} contain MVs: these information might be difficult
+for people to answer. So does the \textbf{native\_country}. Hence, we
+just replace this \texttt{"?"} into some proper value as
+\texttt{"Unknown"}, \texttt{"Not\ Given"}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# edit data_B level "?" as "Unknown"}
+\KeywordTok{levels}\NormalTok{(data_B}\OperatorTok{$}\NormalTok{workclass)[}\DecValTok{1}\NormalTok{] <-}\StringTok{ "Unknown"}
+\CommentTok{# edit level "?" as "Not Given"}
+\KeywordTok{levels}\NormalTok{(data_B}\OperatorTok{$}\NormalTok{occupation)[}\DecValTok{1}\NormalTok{] <-}\StringTok{ "Not Given"}
+\KeywordTok{levels}\NormalTok{(data_B}\OperatorTok{$}\NormalTok{native_country)[}\DecValTok{1}\NormalTok{] <-}\StringTok{ "Not Given"}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{B.2}\label{b.2}
+
+We need to make sure that all train data should not contain any MVs,
+let's check:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{levels}\NormalTok{(data_B}\OperatorTok{$}\NormalTok{income)[}\DecValTok{1}\NormalTok{] <-}\StringTok{ }\DecValTok{0}
+\KeywordTok{levels}\NormalTok{(data_B}\OperatorTok{$}\NormalTok{income)[}\DecValTok{2}\NormalTok{] <-}\StringTok{ }\DecValTok{1}
+\NormalTok{model <-}\StringTok{ }\KeywordTok{glm}\NormalTok{(income}\OperatorTok{~}\NormalTok{., }\DataTypeTok{family =}\NormalTok{ binomial, }\DataTypeTok{data =}\NormalTok{ data_B)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(model)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Call:
+## glm(formula = income ~ ., family = binomial, data = data_B)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -5.1131  -0.5027  -0.1823  -0.0336   3.8667  
+## 
+## Coefficients: (2 not defined because of singularities)
+##                                            Estimate Std. Error z value
+## (Intercept)                              -8.983e+00  3.817e-01 -23.534
+## age                                       2.493e-02  1.421e-03  17.547
+## workclassFederal-gov                      1.199e+00  1.312e-01   9.142
+## workclassLocal-gov                        5.072e-01  1.191e-01   4.258
+## workclassNever-worked                    -8.058e+00  8.524e+01  -0.095
+## workclassPrivate                          6.753e-01  1.056e-01   6.396
+## workclassSelf-emp-inc                     8.304e-01  1.272e-01   6.528
+## workclassSelf-emp-not-inc                 1.356e-01  1.160e-01   1.169
+## workclassState-gov                        3.109e-01  1.295e-01   2.401
+## workclassWithout-pay                     -2.029e-01  7.916e-01  -0.256
+## fnlwgt                                    7.803e-07  1.473e-07   5.298
+## education11th                             4.803e-02  1.834e-01   0.262
+## education12th                             4.517e-01  2.274e-01   1.987
+## education1st-4th                         -6.381e-01  4.437e-01  -1.438
+## education5th-6th                         -3.744e-01  2.842e-01  -1.317
+## education7th-8th                         -4.565e-01  2.001e-01  -2.281
+## education9th                             -1.979e-01  2.244e-01  -0.882
+## educationAssoc-acdm                       1.370e+00  1.525e-01   8.985
+## educationAssoc-voc                        1.297e+00  1.473e-01   8.808
+## educationBachelors                        1.930e+00  1.368e-01  14.113
+## educationDoctorate                        2.871e+00  1.849e-01  15.524
+## educationHS-grad                          8.032e-01  1.333e-01   6.027
+## educationMasters                          2.265e+00  1.454e-01  15.578
+## educationPreschool                       -5.110e+00  3.713e+00  -1.376
+## educationProf-school                      2.782e+00  1.739e-01  16.001
+## educationSome-college                     1.168e+00  1.352e-01   8.642
+## educational_num                                  NA         NA      NA
+## marital_statusMarried-AF-spouse           2.484e+00  4.762e-01   5.216
+## marital_statusMarried-civ-spouse          2.324e+00  2.318e-01  10.028
+## marital_statusMarried-spouse-absent       1.221e-01  1.898e-01   0.643
+## marital_statusNever-married              -4.299e-01  7.584e-02  -5.668
+## marital_statusSeparated                  -1.449e-01  1.446e-01  -1.002
+## marital_statusWidowed                     8.315e-02  1.355e-01   0.613
+## occupationAdm-clerical                    9.467e-02  8.477e-02   1.117
+## occupationArmed-Forces                    3.553e-01  9.076e-01   0.391
+## occupationCraft-repair                    1.303e-01  7.292e-02   1.787
+## occupationExec-managerial                 8.604e-01  7.496e-02  11.477
+## occupationFarming-fishing                -8.822e-01  1.231e-01  -7.166
+## occupationHandlers-cleaners              -6.438e-01  1.247e-01  -5.161
+## occupationMachine-op-inspct              -1.953e-01  9.134e-02  -2.138
+## occupationOther-service                  -7.800e-01  1.071e-01  -7.280
+## occupationPriv-house-serv                -2.508e+00  1.007e+00  -2.490
+## occupationProf-specialty                  6.173e-01  8.039e-02   7.679
+## occupationProtective-serv                 5.778e-01  1.130e-01   5.115
+## occupationSales                           3.531e-01  7.737e-02   4.564
+## occupationTech-support                    6.917e-01  1.018e-01   6.797
+## occupationTransport-moving                       NA         NA      NA
+## relationshipNot-in-family                 5.902e-01  2.294e-01   2.573
+## relationshipOther-relative               -4.475e-01  2.163e-01  -2.069
+## relationshipOwn-child                    -5.141e-01  2.249e-01  -2.286
+## relationshipUnmarried                     4.186e-01  2.437e-01   1.718
+## relationshipWife                          1.207e+00  8.796e-02  13.727
+## raceAsian-Pac-Islander                    8.455e-01  2.338e-01   3.616
+## raceBlack                                 4.001e-01  2.033e-01   1.968
+## raceOther                                 4.883e-01  2.904e-01   1.681
+## raceWhite                                 6.173e-01  1.934e-01   3.192
+## genderMale                                7.743e-01  6.793e-02  11.398
+## capital_gain                              3.231e-04  9.041e-06  35.736
+## capital_loss                              6.397e-04  3.199e-05  19.999
+## hours_per_week                            2.867e-02  1.382e-03  20.745
+## native_countryCambodia                    9.898e-01  5.506e-01   1.798
+## native_countryCanada                      6.812e-01  2.420e-01   2.815
+## native_countryChina                      -7.025e-01  3.243e-01  -2.167
+## native_countryColumbia                   -2.253e+00  7.956e-01  -2.832
+## native_countryCuba                        3.318e-01  2.955e-01   1.123
+## native_countryDominican-Republic         -1.551e+00  7.610e-01  -2.038
+## native_countryEcuador                    -4.960e-01  6.298e-01  -0.788
+## native_countryEl-Salvador                -6.264e-01  4.477e-01  -1.399
+## native_countryEngland                     5.152e-01  2.980e-01   1.729
+## native_countryFrance                      8.185e-01  4.584e-01   1.786
+## native_countryGermany                     2.507e-01  2.520e-01   0.995
+## native_countryGreece                     -2.283e-01  4.052e-01  -0.563
+## native_countryGuatemala                  -3.188e-01  7.477e-01  -0.426
+## native_countryHaiti                       1.927e-01  5.078e-01   0.379
+## native_countryHoland-Netherlands         -8.348e+00  3.247e+02  -0.026
+## native_countryHonduras                   -1.413e+00  2.105e+00  -0.671
+## native_countryHong                       -4.326e-01  5.976e-01  -0.724
+## native_countryHungary                     4.144e-01  6.326e-01   0.655
+## native_countryIndia                      -2.766e-01  2.836e-01  -0.975
+## native_countryIran                        2.927e-01  4.009e-01   0.730
+## native_countryIreland                     1.276e+00  5.018e-01   2.542
+## native_countryItaly                       7.790e-01  2.991e-01   2.605
+## native_countryJamaica                     2.015e-01  4.142e-01   0.486
+## native_countryJapan                      -6.937e-02  3.474e-01  -0.200
+## native_countryLaos                       -1.304e+00  8.638e-01  -1.510
+## native_countryMexico                     -5.924e-01  2.234e-01  -2.651
+## native_countryNicaragua                  -9.403e-01  7.831e-01  -1.201
+## native_countryOutlying-US(Guam-USVI-etc) -7.466e-01  1.080e+00  -0.692
+## native_countryPeru                       -6.493e-01  6.353e-01  -1.022
+## native_countryPhilippines                 2.360e-01  2.417e-01   0.976
+## native_countryPoland                     -2.304e-02  3.639e-01  -0.063
+## native_countryPortugal                    6.013e-01  4.451e-01   1.351
+## native_countryPuerto-Rico                -1.232e-01  3.323e-01  -0.371
+## native_countryScotland                   -1.595e-01  7.555e-01  -0.211
+## native_countrySouth                      -1.147e+00  3.835e-01  -2.991
+## native_countryTaiwan                     -2.788e-02  4.148e-01  -0.067
+## native_countryThailand                   -7.829e-01  6.973e-01  -1.123
+## native_countryTrinadad&Tobago            -1.156e+00  8.340e-01  -1.386
+## native_countryUnited-States               2.445e-01  1.135e-01   2.155
+## native_countryVietnam                    -9.150e-01  5.077e-01  -1.802
+## native_countryYugoslavia                  7.909e-01  6.123e-01   1.292
+##                                          Pr(>|z|)    
+## (Intercept)                               < 2e-16 ***
+## age                                       < 2e-16 ***
+## workclassFederal-gov                      < 2e-16 ***
+## workclassLocal-gov                       2.06e-05 ***
+## workclassNever-worked                    0.924684    
+## workclassPrivate                         1.60e-10 ***
+## workclassSelf-emp-inc                    6.68e-11 ***
+## workclassSelf-emp-not-inc                0.242303    
+## workclassState-gov                       0.016340 *  
+## workclassWithout-pay                     0.797719    
+## fnlwgt                                   1.17e-07 ***
+## education11th                            0.793465    
+## education12th                            0.046958 *  
+## education1st-4th                         0.150368    
+## education5th-6th                         0.187776    
+## education7th-8th                         0.022567 *  
+## education9th                             0.377763    
+## educationAssoc-acdm                       < 2e-16 ***
+## educationAssoc-voc                        < 2e-16 ***
+## educationBachelors                        < 2e-16 ***
+## educationDoctorate                        < 2e-16 ***
+## educationHS-grad                         1.67e-09 ***
+## educationMasters                          < 2e-16 ***
+## educationPreschool                       0.168785    
+## educationProf-school                      < 2e-16 ***
+## educationSome-college                     < 2e-16 ***
+## educational_num                                NA    
+## marital_statusMarried-AF-spouse          1.83e-07 ***
+## marital_statusMarried-civ-spouse          < 2e-16 ***
+## marital_statusMarried-spouse-absent      0.520216    
+## marital_statusNever-married              1.44e-08 ***
+## marital_statusSeparated                  0.316373    
+## marital_statusWidowed                    0.539548    
+## occupationAdm-clerical                   0.264077    
+## occupationArmed-Forces                   0.695457    
+## occupationCraft-repair                   0.074013 .  
+## occupationExec-managerial                 < 2e-16 ***
+## occupationFarming-fishing                7.74e-13 ***
+## occupationHandlers-cleaners              2.46e-07 ***
+## occupationMachine-op-inspct              0.032506 *  
+## occupationOther-service                  3.34e-13 ***
+## occupationPriv-house-serv                0.012767 *  
+## occupationProf-specialty                 1.61e-14 ***
+## occupationProtective-serv                3.14e-07 ***
+## occupationSales                          5.03e-06 ***
+## occupationTech-support                   1.07e-11 ***
+## occupationTransport-moving                     NA    
+## relationshipNot-in-family                0.010078 *  
+## relationshipOther-relative               0.038592 *  
+## relationshipOwn-child                    0.022251 *  
+## relationshipUnmarried                    0.085822 .  
+## relationshipWife                          < 2e-16 ***
+## raceAsian-Pac-Islander                   0.000299 ***
+## raceBlack                                0.049111 *  
+## raceOther                                0.092677 .  
+## raceWhite                                0.001414 ** 
+## genderMale                                < 2e-16 ***
+## capital_gain                              < 2e-16 ***
+## capital_loss                              < 2e-16 ***
+## hours_per_week                            < 2e-16 ***
+## native_countryCambodia                   0.072240 .  
+## native_countryCanada                     0.004880 ** 
+## native_countryChina                      0.030269 *  
+## native_countryColumbia                   0.004622 ** 
+## native_countryCuba                       0.261368    
+## native_countryDominican-Republic         0.041571 *  
+## native_countryEcuador                    0.430972    
+## native_countryEl-Salvador                0.161737    
+## native_countryEngland                    0.083770 .  
+## native_countryFrance                     0.074147 .  
+## native_countryGermany                    0.319802    
+## native_countryGreece                     0.573207    
+## native_countryGuatemala                  0.669817    
+## native_countryHaiti                      0.704402    
+## native_countryHoland-Netherlands         0.979492    
+## native_countryHonduras                   0.501972    
+## native_countryHong                       0.469151    
+## native_countryHungary                    0.512433    
+## native_countryIndia                      0.329360    
+## native_countryIran                       0.465257    
+## native_countryIreland                    0.011025 *  
+## native_countryItaly                      0.009196 ** 
+## native_countryJamaica                    0.626736    
+## native_countryJapan                      0.841702    
+## native_countryLaos                       0.131047    
+## native_countryMexico                     0.008020 ** 
+## native_countryNicaragua                  0.229859    
+## native_countryOutlying-US(Guam-USVI-etc) 0.489229    
+## native_countryPeru                       0.306739    
+## native_countryPhilippines                0.328968    
+## native_countryPoland                     0.949509    
+## native_countryPortugal                   0.176764    
+## native_countryPuerto-Rico                0.710764    
+## native_countryScotland                   0.832756    
+## native_countrySouth                      0.002779 ** 
+## native_countryTaiwan                     0.946418    
+## native_countryThailand                   0.261537    
+## native_countryTrinadad&Tobago            0.165765    
+## native_countryUnited-States              0.031189 *  
+## native_countryVietnam                    0.071501 .  
+## native_countryYugoslavia                 0.196480    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 48173  on 43841  degrees of freedom
+## Residual deviance: 27615  on 43743  degrees of freedom
+## AIC: 27813
+## 
+## Number of Fisher Scoring iterations: 11
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Deviance Residuals}\OperatorTok{:}\StringTok{ }
+\StringTok{    }\NormalTok{Min       1Q   Median       3Q      Max  }
+\OperatorTok{-}\FloatTok{5.1131}  \OperatorTok{-}\FloatTok{0.5027}  \OperatorTok{-}\FloatTok{0.1823}  \OperatorTok{-}\FloatTok{0.0336}   \FloatTok{3.8667}  
+\end{Highlighting}
+\end{Shaded}
+
+The meadian of the residuals close to 0 (-0.1823). The distribution is
+slightly left tailed as median are more closer to 3Q but not 1Q (0.0336
+v.s -0.5027). However, we only need to check its normality if the model
+is Gaussian. For logistic model, we need to check \textbf{Q-Q plot}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{qqnorm}\NormalTok{(}\KeywordTok{residuals}\NormalTok{(model, }\DataTypeTok{type=}\StringTok{"deviance"}\NormalTok{))}
+\KeywordTok{abline}\NormalTok{(}\DataTypeTok{a=}\DecValTok{0}\NormalTok{,}\DataTypeTok{b=}\DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{ass2_files/figure-latex/unnamed-chunk-19-1.pdf}
+
+In this plot, dots are nearly over the line \texttt{y=x}, we can regard
+the residuals as normally distributed.
+
+With respect to the coefficients significance, we can find that almost
+all the coefficient have been given 3 stars. It means that most of the
+variables are relevent to \texttt{income}.
+
+\subsection{B.3}\label{b.3}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{test_B <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"./adult_income_test.csv"}\NormalTok{)}
+\NormalTok{predict_data <-}\StringTok{ }\KeywordTok{predict}\NormalTok{(model, }\DataTypeTok{newdata =}\NormalTok{ test_B)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in predict.lm(object, newdata, se.fit, scale = 1, type =
+## ifelse(type == : prediction from a rank-deficient fit may be misleading
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{predict_data[predict_data}\OperatorTok{<}\DecValTok{0}\NormalTok{] <-}\StringTok{ '0'}
+\NormalTok{predict_data[predict_data}\OperatorTok{>}\DecValTok{0}\NormalTok{] <-}\StringTok{ '1'}
+\KeywordTok{levels}\NormalTok{(test_B}\OperatorTok{$}\NormalTok{income)[}\DecValTok{1}\NormalTok{] <-}\StringTok{ '0'}
+\KeywordTok{levels}\NormalTok{(test_B}\OperatorTok{$}\NormalTok{income)[}\DecValTok{2}\NormalTok{] <-}\StringTok{ '1'}
+\end{Highlighting}
+\end{Shaded}
+
+Then, we calculate at what percentage this model correctly predict:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{match <-}\StringTok{ }\KeywordTok{sum}\NormalTok{(predict_data}\OperatorTok{==}\NormalTok{test_B}\OperatorTok{$}\NormalTok{income)}
+\NormalTok{notmatch <-}\StringTok{ }\KeywordTok{sum}\NormalTok{(predict_data}\OperatorTok{!=}\NormalTok{test_B}\OperatorTok{$}\NormalTok{income)}
+\KeywordTok{paste}\NormalTok{(}\KeywordTok{round}\NormalTok{(match}\OperatorTok{/}\NormalTok{(match}\OperatorTok{+}\NormalTok{notmatch)}\OperatorTok{*}\DecValTok{100}\NormalTok{,}\DecValTok{2}\NormalTok{), }\StringTok{"%"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "84.86 %"
+\end{verbatim}
+
+Let's create a \textbf{confusion matrix}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{confusion.matrix <-}\StringTok{ }\KeywordTok{as.matrix}\NormalTok{(}\KeywordTok{table}\NormalTok{(}\StringTok{'Actual'}\NormalTok{=model}\OperatorTok{$}\NormalTok{y, }\StringTok{'Prediction'}\NormalTok{=}\KeywordTok{round}\NormalTok{(model}\OperatorTok{$}\NormalTok{fitted.values)))}
+\NormalTok{confusion.matrix}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       Prediction
+## Actual     0     1
+##      0 31138  2246
+##      1  4148  6310
+\end{verbatim}
+
+From above we can find that: * \textbf{TP}=31138 * \textbf{FP}=2246 *
+\textbf{FN}=4148 * \textbf{TN}=6310
+
+Then we can calculate the \textbf{accuracy}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{N <-}\StringTok{ }\KeywordTok{nrow}\NormalTok{(data_B) }\CommentTok{# number of observations}
+\NormalTok{diag <-}\StringTok{ }\KeywordTok{diag}\NormalTok{(confusion.matrix) }\CommentTok{# TN and TP}
+\CommentTok{#accuracy = (TP + TN)/N}
+\NormalTok{Accuracy <-}\StringTok{ }\KeywordTok{sum}\NormalTok{(diag)}\OperatorTok{/}\NormalTok{N}
+\KeywordTok{paste}\NormalTok{(}\KeywordTok{round}\NormalTok{(Accuracy}\OperatorTok{*}\DecValTok{100}\NormalTok{,}\DecValTok{2}\NormalTok{),}\StringTok{"%"}\NormalTok{) }\CommentTok{# get percentage of accuracy}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "85.42 %"
+\end{verbatim}
+
+Also, we can calculate the \textbf{Precision} and \textbf{Recall}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# number of observations per class}
+\NormalTok{rowsums =}\StringTok{ }\KeywordTok{apply}\NormalTok{(confusion.matrix, }\DecValTok{1}\NormalTok{, sum)}
+\CommentTok{# number of predictions per class}
+\NormalTok{colsums =}\StringTok{ }\KeywordTok{apply}\NormalTok{(confusion.matrix, }\DecValTok{2}\NormalTok{, sum)}
+\CommentTok{# Calculate precision}
+\NormalTok{Precision =}\StringTok{ }\NormalTok{diag }\OperatorTok{/}\StringTok{ }\NormalTok{colsums}
+\NormalTok{Recall =}\StringTok{ }\NormalTok{diag }\OperatorTok{/}\StringTok{ }\NormalTok{rowsums}
+\NormalTok{F1 =}\StringTok{ }\DecValTok{2} \OperatorTok{*}\StringTok{ }\NormalTok{Precision }\OperatorTok{*}\StringTok{ }\NormalTok{Recall }\OperatorTok{/}\StringTok{ }\NormalTok{(Precision }\OperatorTok{+}\StringTok{ }\NormalTok{Recall) }
+\KeywordTok{round}\NormalTok{(}\KeywordTok{data.frame}\NormalTok{(Precision, Recall)}\OperatorTok{*}\DecValTok{100}\NormalTok{,}\DecValTok{2}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   Precision Recall
+## 0     88.24  93.27
+## 1     73.75  60.34
+\end{verbatim}
+
+
+\end{document}
